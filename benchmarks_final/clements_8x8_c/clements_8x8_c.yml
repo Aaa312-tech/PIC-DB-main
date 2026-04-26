@@ -1,0 +1,312 @@
+name: clements_8x8_c
+bbox: [[0, 0], [3500, 1000]]
+instances:
+  gc_in_0:
+    component: grating_coupler_elliptical_lumerical
+  yb_0_0:
+    component: mmi1x2
+  yb_1_0:
+    component: mmi1x2
+  yb_1_1:
+    component: mmi1x2
+  yb_2_0:
+    component: mmi1x2
+  yb_2_1:
+    component: mmi1x2
+  yb_2_2:
+    component: mmi1x2
+  yb_2_3:
+    component: mmi1x2
+  mzi_0:
+    component: mzi
+  mzi_1:
+    component: mzi
+  mzi_2:
+    component: mzi
+  mzi_3:
+    component: mzi
+  mzi_4:
+    component: mzi
+  mzi_5:
+    component: mzi
+  mzi_6:
+    component: mzi
+  mzi_7:
+    component: mzi
+  gc_out_0:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_1:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_2:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_3:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_4:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_5:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_6:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_7:
+    component: grating_coupler_elliptical_lumerical
+  p1:
+    component: mzi2x2_2x2_phase_shifter
+  p2:
+    component: mzi2x2_2x2_phase_shifter
+  p3:
+    component: mzi2x2_2x2_phase_shifter
+  p4:
+    component: mzi2x2_2x2_phase_shifter
+  p5:
+    component: mzi2x2_2x2_phase_shifter
+  p6:
+    component: mzi2x2_2x2_phase_shifter
+  p7:
+    component: mzi2x2_2x2_phase_shifter
+  p8:
+    component: mzi2x2_2x2_phase_shifter
+  p9:
+    component: mzi2x2_2x2_phase_shifter
+  p10:
+    component: mzi2x2_2x2_phase_shifter
+  p11:
+    component: mzi2x2_2x2_phase_shifter
+  p12:
+    component: mzi2x2_2x2_phase_shifter
+  p13:
+    component: mzi2x2_2x2_phase_shifter
+  p14:
+    component: mzi2x2_2x2_phase_shifter
+  p15:
+    component: mzi2x2_2x2_phase_shifter
+  p16:
+    component: mzi2x2_2x2_phase_shifter
+  p17:
+    component: mzi2x2_2x2_phase_shifter
+  p18:
+    component: mzi2x2_2x2_phase_shifter
+  p19:
+    component: mzi2x2_2x2_phase_shifter
+  p20:
+    component: mzi2x2_2x2_phase_shifter
+  p21:
+    component: mzi2x2_2x2_phase_shifter
+  p22:
+    component: mzi2x2_2x2_phase_shifter
+  p23:
+    component: mzi2x2_2x2_phase_shifter
+  p24:
+    component: mzi2x2_2x2_phase_shifter
+  p25:
+    component: mzi2x2_2x2_phase_shifter
+  p26:
+    component: mzi2x2_2x2_phase_shifter
+  p27:
+    component: mzi2x2_2x2_phase_shifter
+  p28:
+    component: mzi2x2_2x2_phase_shifter
+  p29:
+    component: mzi2x2_2x2_phase_shifter
+  p30:
+    component: mzi2x2_2x2_phase_shifter
+  p31:
+    component: mzi2x2_2x2_phase_shifter
+  p32:
+    component: mzi2x2_2x2_phase_shifter
+  p33:
+    component: mzi2x2_2x2_phase_shifter
+  p34:
+    component: mzi2x2_2x2_phase_shifter
+  p35:
+    component: mzi2x2_2x2_phase_shifter
+  p36:
+    component: mzi2x2_2x2_phase_shifter
+
+placements:
+  # --- Input Stage (紧凑间距) ---
+  gc_in_0: {x: 50.0, y: 500.0, rotation: 180}
+  yb_0_0: {x: 150.0, y: 500.0, rotation: 0}
+  yb_1_0: {x: 250.0, y: 50.0, rotation: 0}
+  yb_1_1: {x: 250.0, y: 950.0, rotation: 0}
+  yb_2_0: {x: 350.0, y: 50.0, rotation: 0}
+  yb_2_1: {x: 350.0, y: 350.0, rotation: 0}
+  yb_2_2: {x: 350.0, y: 650.0, rotation: 0}
+  yb_2_3: {x: 350.0, y: 950.0, rotation: 0}
+  
+  # --- Modulator MZIs (中等间距过渡) ---
+  mzi_0: {x: 500.0, y: 50.0, rotation: 0}
+  mzi_1: {x: 500.0, y: 178.6, rotation: 0}
+  mzi_2: {x: 500.0, y: 307.1, rotation: 0}
+  mzi_3: {x: 500.0, y: 435.7, rotation: 0}
+  mzi_4: {x: 500.0, y: 564.3, rotation: 0}
+  mzi_5: {x: 500.0, y: 692.9, rotation: 0}
+  mzi_6: {x: 500.0, y: 821.4, rotation: 0}
+  mzi_7: {x: 500.0, y: 950.0, rotation: 0}
+
+  # --- 第 0 列 (Even - 宽间距) ---
+  p1: {x: 850.0, y: 50.0, rotation: 0}
+  p2: {x: 850.0, y: 350.0, rotation: 0}
+  p3: {x: 850.0, y: 650.0, rotation: 0}
+  p4: {x: 850.0, y: 950.0, rotation: 0}
+
+  # --- 第 1 列 (Odd) ---
+  p29: {x: 1170.0, y: 50.0, rotation: 0}
+  p5: {x: 1170.0, y: 275.0, rotation: 0}
+  p6: {x: 1170.0, y: 500.0, rotation: 0}
+  p7: {x: 1170.0, y: 725.0, rotation: 0}
+  p30: {x: 1170.0, y: 950.0, rotation: 0}
+
+  # --- 第 2 列 (Even) ---
+  p8: {x: 1490.0, y: 50.0, rotation: 0}
+  p9: {x: 1490.0, y: 350.0, rotation: 0}
+  p10: {x: 1490.0, y: 650.0, rotation: 0}
+  p11: {x: 1490.0, y: 950.0, rotation: 0}
+
+  # --- 第 3 列 (Odd) ---
+  p31: {x: 1810.0, y: 50.0, rotation: 0}
+  p12: {x: 1810.0, y: 275.0, rotation: 0}
+  p13: {x: 1810.0, y: 500.0, rotation: 0}
+  p14: {x: 1810.0, y: 725.0, rotation: 0}
+  p32: {x: 1810.0, y: 950.0, rotation: 0}
+
+  # --- 第 4 列 (Even) ---
+  p15: {x: 2130.0, y: 50.0, rotation: 0}
+  p16: {x: 2130.0, y: 350.0, rotation: 0}
+  p17: {x: 2130.0, y: 650.0, rotation: 0}
+  p18: {x: 2130.0, y: 950.0, rotation: 0}
+
+  # --- 第 5 列 (Odd) ---
+  p33: {x: 2450.0, y: 50.0, rotation: 0}
+  p19: {x: 2450.0, y: 275.0, rotation: 0}
+  p20: {x: 2450.0, y: 500.0, rotation: 0}
+  p21: {x: 2450.0, y: 725.0, rotation: 0}
+  p34: {x: 2450.0, y: 950.0, rotation: 0}
+
+  # --- 第 6 列 (Even) ---
+  p22: {x: 2770.0, y: 50.0, rotation: 0}
+  p23: {x: 2770.0, y: 350.0, rotation: 0}
+  p24: {x: 2770.0, y: 650.0, rotation: 0}
+  p25: {x: 2770.0, y: 950.0, rotation: 0}
+
+  # --- 第 7 列 (Odd) ---
+  p35: {x: 3090.0, y: 50.0, rotation: 0}
+  p26: {x: 3090.0, y: 275.0, rotation: 0}
+  p27: {x: 3090.0, y: 500.0, rotation: 0}
+  p28: {x: 3090.0, y: 725.0, rotation: 0}
+  p36: {x: 3090.0, y: 950.0, rotation: 0}
+
+  # --- Output Stage ---
+  gc_out_0: {x: 3450.0, y: 50.0, rotation: 0}
+  gc_out_1: {x: 3450.0, y: 178.6, rotation: 0}
+  gc_out_2: {x: 3450.0, y: 307.1, rotation: 0}
+  gc_out_3: {x: 3450.0, y: 435.7, rotation: 0}
+  gc_out_4: {x: 3450.0, y: 564.3, rotation: 0}
+  gc_out_5: {x: 3450.0, y: 692.9, rotation: 0}
+  gc_out_6: {x: 3450.0, y: 821.4, rotation: 0}
+  gc_out_7: {x: 3450.0, y: 950.0, rotation: 0}
+
+connections:
+  # --- MMI & MZI Input Stage ---
+  gc_in_0,o1: yb_0_0,o1
+  yb_0_0,o3: yb_1_0,o1
+  yb_0_0,o2: yb_1_1,o1
+  yb_1_0,o3: yb_2_0,o1
+  yb_1_0,o2: yb_2_1,o1
+  yb_1_1,o3: yb_2_2,o1
+  yb_1_1,o2: yb_2_3,o1
+  yb_2_0,o3: mzi_0,o1
+  yb_2_0,o2: mzi_1,o1
+  yb_2_1,o3: mzi_2,o1
+  yb_2_1,o2: mzi_3,o1
+  yb_2_2,o3: mzi_4,o1
+  yb_2_2,o2: mzi_5,o1
+  yb_2_3,o3: mzi_6,o1
+  yb_2_3,o2: mzi_7,o1
+  mzi_0,o2: p1,o1
+  mzi_1,o2: p1,o2
+  mzi_2,o2: p2,o1
+  mzi_3,o2: p2,o2
+  mzi_4,o2: p3,o1
+  mzi_5,o2: p3,o2
+  mzi_6,o2: p4,o1
+  mzi_7,o2: p4,o2
+
+  # --- Col 0 -> Col 1 ---
+  p1,o4: p29,o2
+  p1,o3: p5,o1
+  p2,o4: p5,o2
+  p2,o3: p6,o1
+  p3,o4: p6,o2
+  p3,o3: p7,o1
+  p4,o4: p7,o2
+  p4,o3: p30,o1
+
+  # --- Col 1 -> Col 2 ---
+  p29,o3: p8,o1
+  p5,o4: p8,o2
+  p5,o3: p9,o1
+  p6,o4: p9,o2
+  p6,o3: p10,o1
+  p7,o4: p10,o2
+  p7,o3: p11,o1
+  p30,o4: p11,o2
+
+  # --- Col 2 -> Col 3 ---
+  p8,o4: p31,o2
+  p8,o3: p12,o1
+  p9,o4: p12,o2
+  p9,o3: p13,o1
+  p10,o4: p13,o2
+  p10,o3: p14,o1
+  p11,o4: p14,o2
+  p11,o3: p32,o1
+
+  # --- Col 3 -> Col 4 ---
+  p31,o3: p15,o1
+  p12,o4: p15,o2
+  p12,o3: p16,o1
+  p13,o4: p16,o2
+  p13,o3: p17,o1
+  p14,o4: p17,o2
+  p14,o3: p18,o1
+  p32,o4: p18,o2
+
+  # --- Col 4 -> Col 5 ---
+  p15,o4: p33,o2
+  p15,o3: p19,o1
+  p16,o4: p19,o2
+  p16,o3: p20,o1
+  p17,o4: p20,o2
+  p17,o3: p21,o1
+  p18,o4: p21,o2
+  p18,o3: p34,o1
+
+  # --- Col 5 -> Col 6 ---
+  p33,o3: p22,o1
+  p19,o4: p22,o2
+  p19,o3: p23,o1
+  p20,o4: p23,o2
+  p20,o3: p24,o1
+  p21,o4: p24,o2
+  p21,o3: p25,o1
+  p34,o4: p25,o2
+
+  # --- Col 6 -> Col 7 ---
+  p22,o4: p35,o2
+  p22,o3: p26,o1
+  p23,o4: p26,o2
+  p23,o3: p27,o1
+  p24,o4: p27,o2
+  p24,o3: p28,o1
+  p25,o4: p28,o2
+  p25,o3: p36,o1
+
+  # --- Col 7 -> GC Out Stage ---
+  p35,o3: gc_out_0,o1
+  p26,o4: gc_out_1,o1
+  p26,o3: gc_out_2,o1
+  p27,o4: gc_out_3,o1
+  p27,o3: gc_out_4,o1
+  p28,o4: gc_out_5,o1
+  p28,o3: gc_out_6,o1
+  p36,o4: gc_out_7,o1

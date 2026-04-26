@@ -1,0 +1,45 @@
+run:
+  random_state: 42
+  output_layout_gds_path: "/home/hzhou144/projects/PICRoute/src/picroute/result/layout.gds"
+
+dr:
+  router: GridRoute
+  maxIteration: 10
+  
+  net_order: "topo"   # topo, naive
+  group: True
+  enable_45_neighbor: True
+  historyCost: 1000
+  ripup_times: 10
+
+  grid_resolution: 2
+  bend_radius: 5
+  net_bound_scale_factor: 1.5
+  net_default_bound: 100
+
+  loss_propagation: 1.5
+  loss_bending: 50
+  loss_crossing: 0
+  loss_congestion: 500
+
+  loss_comp:
+    none: 0.0
+  #   m_mmi1x2_WNone_WT1_LT10_L_4e0f7121_1: 0.1
+  #   m_mzi_DL10_LY2_LX0p1_Bben_6240c649_2: 1.2
+  #   m_mzi_DL10_LY2_LX200_Bben_45028f49_3: 1.2
+  #   mzi2x2_2x2_phase_shifter: 1.2
+  #   m_grating_coupler_ellipti_4c46b398_0: 2.0
+  #   delay_snake2: 0.0
+  #   # TODO
+  #   ring_double_heater: 1.2
+  #   m_straight_heater_metal_u_9c931429_3: 0.05
+  #   coupler: 0.3
+
+show_temp: False
+
+eval: "comp"    # noc, comp
+# 这个是evaluation
+il_cross: 0.52
+il_bending: 0.005
+il_propogation: 1.5
+  

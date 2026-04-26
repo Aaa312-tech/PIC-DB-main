@@ -1,0 +1,404 @@
+name: clements_8x8
+bbox: [[0,0],[4800,1600]]
+instances:
+  gc_in_0:
+    component: grating_coupler_elliptical_lumerical
+  yb_0_0:
+    component: mmi1x2
+  yb_1_0:
+    component: mmi1x2
+  yb_1_1:
+    component: mmi1x2
+  yb_2_0:
+    component: mmi1x2
+  yb_2_1:
+    component: mmi1x2
+  yb_2_2:
+    component: mmi1x2
+  yb_2_3:
+    component: mmi1x2
+  mzi_0:
+    component: mzi
+  mzi_1:
+    component: mzi
+  mzi_2:
+    component: mzi
+  mzi_3:
+    component: mzi
+  mzi_4:
+    component: mzi
+  mzi_5:
+    component: mzi
+  mzi_6:
+    component: mzi
+  mzi_7:
+    component: mzi
+  gc_out_0:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_1:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_2:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_3:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_4:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_5:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_6:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_7:
+    component: grating_coupler_elliptical_lumerical
+  p1:
+    component: mzi2x2_2x2_phase_shifter
+  p2:
+    component: mzi2x2_2x2_phase_shifter
+  p3:
+    component: mzi2x2_2x2_phase_shifter
+  p4:
+    component: mzi2x2_2x2_phase_shifter
+  p5:
+    component: mzi2x2_2x2_phase_shifter
+  p6:
+    component: mzi2x2_2x2_phase_shifter
+  p7:
+    component: mzi2x2_2x2_phase_shifter
+  p8:
+    component: mzi2x2_2x2_phase_shifter
+  p9:
+    component: mzi2x2_2x2_phase_shifter
+  p10:
+    component: mzi2x2_2x2_phase_shifter
+  p11:
+    component: mzi2x2_2x2_phase_shifter
+  p12:
+    component: mzi2x2_2x2_phase_shifter
+  p13:
+    component: mzi2x2_2x2_phase_shifter
+  p14:
+    component: mzi2x2_2x2_phase_shifter
+  p15:
+    component: mzi2x2_2x2_phase_shifter
+  p16:
+    component: mzi2x2_2x2_phase_shifter
+  p17:
+    component: mzi2x2_2x2_phase_shifter
+  p18:
+    component: mzi2x2_2x2_phase_shifter
+  p19:
+    component: mzi2x2_2x2_phase_shifter
+  p20:
+    component: mzi2x2_2x2_phase_shifter
+  p21:
+    component: mzi2x2_2x2_phase_shifter
+  p22:
+    component: mzi2x2_2x2_phase_shifter
+  p23:
+    component: mzi2x2_2x2_phase_shifter
+  p24:
+    component: mzi2x2_2x2_phase_shifter
+  p25:
+    component: mzi2x2_2x2_phase_shifter
+  p26:
+    component: mzi2x2_2x2_phase_shifter
+  p27:
+    component: mzi2x2_2x2_phase_shifter
+  p28:
+    component: mzi2x2_2x2_phase_shifter
+placements:
+  gc_in_0:
+    x: 0.0
+    y: 800.0
+    rotation: 180
+  yb_0_0:
+    x: 500.0
+    y: 260.0
+    rotation: 0  
+  yb_1_0:
+    x: 1000.0
+    y: 260.0
+    rotation: 0
+  yb_1_1:
+    x: 1000.0
+    y: 520.0
+    rotation: 0
+  yb_2_0:
+    x: 1500.0
+    y: 260.0
+    rotation: 0
+  yb_2_1:
+    x: 1500.0
+    y: 520.0
+    rotation: 0
+  yb_2_2:
+    x: 1500.0
+    y: 780.0
+    rotation: 0
+  yb_2_3:
+    x: 1500.0
+    y: 1040.0
+    rotation: 0
+  mzi_0:
+    x: 2000.0
+    y: 260.0
+    rotation: 0
+  mzi_1:
+    x: 2000.0
+    y: 520.0
+    rotation: 0
+  mzi_2:
+    x: 2000.0
+    y: 780.0
+    rotation: 0
+  mzi_3:
+    x: 2000.0
+    y: 1040.0
+    rotation: 0
+  mzi_4:
+    x: 2000.0
+    y: 1300.0
+    rotation: 0
+  mzi_5:
+    x: 2000.0
+    y: 1560.0
+    rotation: 0
+  mzi_6:
+    x: 2000.0
+    y: 1820.0
+    rotation: 0
+  mzi_7:
+    x: 2000.0
+    y: 2080.0
+    rotation: 0
+  gc_out_0:
+    x: 4700.0
+    y: 100.0
+    rotation: 0
+  gc_out_1:
+    x: 4700.0
+    y: 300.0
+    rotation: 0
+  gc_out_2:
+    x: 4700.0
+    y: 500.0
+    rotation: 0
+  gc_out_3:
+    x: 4700.0
+    y: 700.0
+    rotation: 0
+  gc_out_4:
+    x: 4700.0
+    y: 900.0
+    rotation: 0
+  gc_out_5:
+    x: 4700.0
+    y: 1100.0
+    rotation: 0
+  gc_out_6:
+    x: 4700.0
+    y: 1300.0
+    rotation: 0
+  gc_out_7:
+    x: 4700.0
+    y: 1500.0
+    rotation: 0
+  p1:
+    x: 2235.0
+    y: 0.0
+    rotation: 0
+  p2:
+    x: 2235.0
+    y: 210.0
+    rotation: 0
+  p3:
+    x: 2235.0
+    y: 420.0
+    rotation: 0
+  p4:
+    x: 2235.0
+    y: 630.0
+    rotation: 0
+  p5:
+    x: 2915.0
+    y: 105.0
+    rotation: 0
+  p6:
+    x: 2915.0
+    y: 315.0
+    rotation: 0
+  p7:
+    x: 2915.0
+    y: 525.0
+    rotation: 0
+  p8:
+    x: 3595.0
+    y: 0.0
+    rotation: 0
+  p9:
+    x: 3595.0
+    y: 210.0
+    rotation: 0
+  p10:
+    x: 3595.0
+    y: 420.0
+    rotation: 0
+  p11:
+    x: 3595.0
+    y: 630.0
+    rotation: 0
+  p12:
+    x: 4275.0
+    y: 105.0
+    rotation: 0
+  p13:
+    x: 4275.0
+    y: 315.0
+    rotation: 0
+  p14:
+    x: 4275.0
+    y: 525.0
+    rotation: 0
+  p15:
+    x: 4955.0
+    y: 0.0
+    rotation: 0
+  p16:
+    x: 4955.0
+    y: 210.0
+    rotation: 0
+  p17:
+    x: 4955.0
+    y: 420.0
+    rotation: 0
+  p18:
+    x: 4955.0
+    y: 630.0
+    rotation: 0
+  p19:
+    x: 5635.0
+    y: 105.0
+    rotation: 0
+  p20:
+    x: 5635.0
+    y: 315.0
+    rotation: 0
+  p21:
+    x: 5635.0
+    y: 525.0
+    rotation: 0
+  p22:
+    x: 6315.0
+    y: 0.0
+    rotation: 0
+  p23:
+    x: 6315.0
+    y: 210.0
+    rotation: 0
+  p24:
+    x: 6315.0
+    y: 420.0
+    rotation: 0
+  p25:
+    x: 6315.0
+    y: 630.0
+    rotation: 0
+  p26:
+    x: 6995.0
+    y: 105.0
+    rotation: 0
+  p27:
+    x: 6995.0
+    y: 315.0
+    rotation: 0
+  p28:
+    x: 6995.0
+    y: 525.0
+    rotation: 0
+connections:
+  gc_in_0,o1: yb_0_0,o1
+  yb_0_0,o3: yb_1_0,o1
+  yb_0_0,o2: yb_1_1,o1
+  yb_1_0,o3: yb_2_0,o1
+  yb_1_0,o2: yb_2_1,o1
+  yb_1_1,o3: yb_2_2,o1
+  yb_1_1,o2: yb_2_3,o1
+  yb_2_0,o3: mzi_0,o1
+  yb_2_0,o2: mzi_1,o1
+  yb_2_1,o3: mzi_2,o1
+  yb_2_1,o2: mzi_3,o1
+  yb_2_2,o3: mzi_4,o1
+  yb_2_2,o2: mzi_5,o1
+  yb_2_3,o3: mzi_6,o1
+  yb_2_3,o2: mzi_7,o1
+  mzi_0,o2: p1,o1
+  mzi_1,o2: p1,o2
+  mzi_2,o2: p2,o1
+  mzi_3,o2: p2,o2
+  mzi_4,o2: p3,o1
+  mzi_5,o2: p3,o2
+  mzi_6,o2: p4,o1
+  mzi_7,o2: p4,o2
+  p1,o3: p5,o1
+  p1,o4: p8,o1
+  p2,o3: p6,o1
+  p2,o4: p5,o2
+  p3,o3: p7,o1
+  p3,o4: p6,o2
+  p4,o3: p11,o2
+  p4,o4: p7,o2
+  p5,o3: p9,o1
+  p5,o4: p8,o2
+  p6,o3: p10,o1
+  p6,o4: p9,o2
+  p7,o3: p11,o1
+  p7,o4: p10,o2
+  p8,o3: p12,o1
+  p8,o4: p15,o1
+  p9,o3: p13,o1
+  p9,o4: p12,o2
+  p10,o3: p14,o1
+  p10,o4: p13,o2
+  p11,o3: p18,o2
+  p11,o4: p14,o2
+  p12,o3: p16,o1
+  p12,o4: p15,o2
+  p13,o3: p17,o1
+  p13,o4: p16,o2
+  p14,o3: p18,o1
+  p14,o4: p17,o2
+  p15,o3: p19,o1
+  p15,o4: p22,o1
+  p16,o3: p20,o1
+  p16,o4: p19,o2
+  p17,o3: p21,o1
+  p17,o4: p20,o2
+  p18,o3: p25,o2
+  p18,o4: p21,o2
+  p19,o3: p23,o1
+  p19,o4: p22,o2
+  p20,o3: p24,o1
+  p20,o4: p23,o2
+  p21,o3: p25,o1
+  p21,o4: p24,o2
+  p22,o3: p26,o1
+  p22,o4: gc_out_0,o1
+  p23,o3: p27,o1
+  p23,o4: p26,o2
+  p24,o3: p28,o1
+  p24,o4: p27,o2
+  p25,o3: gc_out_7,o1
+  p25,o4: p28,o2
+  p26,o3: gc_out_2,o1
+  p26,o4: gc_out_1,o1
+  p27,o3: gc_out_4,o1
+  p27,o4: gc_out_3,o1
+  p28,o3: gc_out_6,o1
+  p28,o4: gc_out_5,o1
+
+
+
+
+
+
+
+

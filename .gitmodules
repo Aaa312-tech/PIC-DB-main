@@ -1,0 +1,12 @@
+[submodule "third-party/DREAMPlace"]
+	path = third-party/DREAMPlace
+	url = https://github.com/O-EDA/DREAMPlace.git
+[submodule "third-party/yaml-cpp"]
+	path = third-party/yaml-cpp
+	url = https://github.com/jbeder/yaml-cpp.git
+[submodule "third-party/spdlog"]
+	path = third-party/spdlog
+	url = https://github.com/gabime/spdlog.git
+[submodule "third-party/LiDAR"]
+	path = third-party/LiDAR
+	url = https://github.com/O-EDA/LiDAR.git

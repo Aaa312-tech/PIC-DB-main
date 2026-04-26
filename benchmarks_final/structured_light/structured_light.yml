@@ -1,0 +1,237 @@
+name: structured_light
+bbox: [[0, 0], [5100, 1050]]
+
+instances:
+  # Level 1: Input
+  gc_in: {component: grating_coupler_elliptical_lumerical}
+
+  # Level 2 & 3: Stage 1 (1->2)
+  mzi_2_1: {component: mzi2x2_2x2_phase_shifter}
+  ps_2_1: {component: m_straight_heater_metal}
+  st_2_1: {component: m_straight}
+
+  # Level 4 & 5: Stage 2 (2->4)
+  mzi_3_1: {component: mzi2x2_2x2_phase_shifter}
+  mzi_3_2: {component: mzi2x2_2x2_phase_shifter}
+  ps_3_1: {component: m_straight_heater_metal}
+  st_3_1: {component: m_straight}
+  ps_3_2: {component: m_straight_heater_metal}
+  st_3_2: {component: m_straight}
+
+  # Level 6 & 7: Stage 3 (4->8)
+  mzi_4_1: {component: mzi2x2_2x2_phase_shifter}
+  mzi_4_2: {component: mzi2x2_2x2_phase_shifter}
+  mzi_4_3: {component: mzi2x2_2x2_phase_shifter}
+  mzi_4_4: {component: mzi2x2_2x2_phase_shifter}
+  ps_4_1: {component: m_straight_heater_metal}
+  st_4_1: {component: m_straight}
+  ps_4_2: {component: m_straight_heater_metal}
+  st_4_2: {component: m_straight}
+  ps_4_3: {component: m_straight_heater_metal}
+  st_4_3: {component: m_straight}
+  ps_4_4: {component: m_straight_heater_metal}
+  st_4_4: {component: m_straight}
+
+  # Level 8: Stage 4 (8->16)
+  mzi_5_1: {component: mzi2x2_2x2_phase_shifter}
+  mzi_5_2: {component: mzi2x2_2x2_phase_shifter}
+  mzi_5_3: {component: mzi2x2_2x2_phase_shifter}
+  mzi_5_4: {component: mzi2x2_2x2_phase_shifter}
+  mzi_5_5: {component: mzi2x2_2x2_phase_shifter}
+  mzi_5_6: {component: mzi2x2_2x2_phase_shifter}
+  mzi_5_7: {component: mzi2x2_2x2_phase_shifter}
+  mzi_5_8: {component: mzi2x2_2x2_phase_shifter}
+
+  # Level 9: Final Phase Correction (16 paths - 8 heaters / 8 straights)
+  ps_f_1: {component: m_straight_heater_metal}
+  st_f_1: {component: m_straight}
+  ps_f_2: {component: m_straight_heater_metal}
+  st_f_2: {component: m_straight}
+  ps_f_3: {component: m_straight_heater_metal}
+  st_f_3: {component: m_straight}
+  ps_f_4: {component: m_straight_heater_metal}
+  st_f_4: {component: m_straight}
+  ps_f_5: {component: m_straight_heater_metal}
+  st_f_5: {component: m_straight}
+  ps_f_6: {component: m_straight_heater_metal}
+  st_f_6: {component: m_straight}
+  ps_f_7: {component: m_straight_heater_metal}
+  st_f_7: {component: m_straight}
+  ps_f_8: {component: m_straight_heater_metal}
+  st_f_8: {component: m_straight}
+
+  # Level 10: Output GCs
+  gc_out_0: {component: grating_coupler_elliptical_lumerical}
+  gc_out_1: {component: grating_coupler_elliptical_lumerical}
+  gc_out_2: {component: grating_coupler_elliptical_lumerical}
+  gc_out_3: {component: grating_coupler_elliptical_lumerical}
+  gc_out_4: {component: grating_coupler_elliptical_lumerical}
+  gc_out_5: {component: grating_coupler_elliptical_lumerical}
+  gc_out_6: {component: grating_coupler_elliptical_lumerical}
+  gc_out_7: {component: grating_coupler_elliptical_lumerical}
+  gc_out_8: {component: grating_coupler_elliptical_lumerical}
+  gc_out_9: {component: grating_coupler_elliptical_lumerical}
+  gc_out_10: {component: grating_coupler_elliptical_lumerical}
+  gc_out_11: {component: grating_coupler_elliptical_lumerical}
+  gc_out_12: {component: grating_coupler_elliptical_lumerical}
+  gc_out_13: {component: grating_coupler_elliptical_lumerical}
+  gc_out_14: {component: grating_coupler_elliptical_lumerical}
+  gc_out_15: {component: grating_coupler_elliptical_lumerical}
+
+# ----------------------------------------------------------------
+# PLACEMENTS: 全坐标展开（修正 Level 9 命名）
+# ----------------------------------------------------------------
+placements:
+  gc_in: {x: 0, y: 525, rotation: 180}
+  mzi_2_1: {x: 600, y: 525}
+
+  ps_2_1: {x: 1100, y: 765}
+  st_2_1: {x: 1100, y: 285}
+
+  mzi_3_1: {x: 1600, y: 765}
+  mzi_3_2: {x: 1600, y: 285}
+
+  ps_3_1: {x: 2100, y: 885}
+  st_3_1: {x: 2100, y: 645}
+  ps_3_2: {x: 2100, y: 405}
+  st_3_2: {x: 2100, y: 165}
+
+  mzi_4_1: {x: 2600, y: 885}
+  mzi_4_2: {x: 2600, y: 645}
+  mzi_4_3: {x: 2600, y: 405}
+  mzi_4_4: {x: 2600, y: 165}
+
+  ps_4_1: {x: 3100, y: 945}
+  st_4_1: {x: 3100, y: 825}
+  ps_4_2: {x: 3100, y: 705}
+  st_4_2: {x: 3100, y: 585}
+  ps_4_3: {x: 3100, y: 465}
+  st_4_3: {x: 3100, y: 345}
+  ps_4_4: {x: 3100, y: 225}
+  st_4_4: {x: 3100, y: 105}
+
+  mzi_5_1: {x: 3600, y: 945}
+  mzi_5_2: {x: 3600, y: 825}
+  mzi_5_3: {x: 3600, y: 705}
+  mzi_5_4: {x: 3600, y: 585}
+  mzi_5_5: {x: 3600, y: 465}
+  mzi_5_6: {x: 3600, y: 345}
+  mzi_5_7: {x: 3600, y: 225}
+  mzi_5_8: {x: 3600, y: 105}
+
+  # Level 9: 修正为 ps/st 交替布局 (X=4200)
+  ps_f_1: {x: 4200, y: 975}
+  st_f_1: {x: 4200, y: 915}
+  ps_f_2: {x: 4200, y: 855}
+  st_f_2: {x: 4200, y: 795}
+  ps_f_3: {x: 4200, y: 735}
+  st_f_3: {x: 4200, y: 675}
+  ps_f_4: {x: 4200, y: 615}
+  st_f_4: {x: 4200, y: 555}
+  ps_f_5: {x: 4200, y: 495}
+  st_f_5: {x: 4200, y: 435}
+  ps_f_6: {x: 4200, y: 375}
+  st_f_6: {x: 4200, y: 315}
+  ps_f_7: {x: 4200, y: 255}
+  st_f_7: {x: 4200, y: 195}
+  ps_f_8: {x: 4200, y: 135}
+  st_f_8: {x: 4200, y: 75}
+
+  # Level 10: GCs (X=5000)
+  gc_out_0:  {x: 5000, y: 975}
+  gc_out_1:  {x: 5000, y: 915}
+  gc_out_2:  {x: 5000, y: 855}
+  gc_out_3:  {x: 5000, y: 795}
+  gc_out_4:  {x: 5000, y: 735}
+  gc_out_5:  {x: 5000, y: 675}
+  gc_out_6:  {x: 5000, y: 615}
+  gc_out_7:  {x: 5000, y: 555}
+  gc_out_8:  {x: 5000, y: 495}
+  gc_out_9:  {x: 5000, y: 435}
+  gc_out_10: {x: 5000, y: 375}
+  gc_out_11: {x: 5000, y: 315}
+  gc_out_12: {x: 5000, y: 255}
+  gc_out_13: {x: 5000, y: 195}
+  gc_out_14: {x: 5000, y: 135}
+  gc_out_15: {x: 5000, y: 75}
+
+# ----------------------------------------------------------------
+# CONNECTIONS: 完整映射（Level 9 严格交替）
+# ----------------------------------------------------------------
+connections:
+  # L1 -> L2
+  gc_in,o1: mzi_2_1,o1
+
+  # L2 -> L3 -> L4
+  mzi_2_1,o3: ps_2_1,o1
+  mzi_2_1,o4: st_2_1,o1
+  ps_2_1,o2: mzi_3_1,o1
+  st_2_1,o2: mzi_3_2,o2
+
+  # L4 -> L5 -> L6
+  mzi_3_1,o3: ps_3_1,o1
+  mzi_3_1,o4: st_3_1,o1
+  ps_3_1,o2: mzi_4_1,o1
+  st_3_1,o2: mzi_4_2,o2
+
+  mzi_3_2,o3: ps_3_2,o1
+  mzi_3_2,o4: st_3_2,o1
+  ps_3_2,o2: mzi_4_3,o1
+  st_3_2,o2: mzi_4_4,o2
+
+  # L6 -> L7 -> L8
+  mzi_4_1,o3: ps_4_1,o1
+  mzi_4_1,o4: st_4_1,o1
+  ps_4_1,o2: mzi_5_1,o1
+  st_4_1,o2: mzi_5_2,o2
+
+  mzi_4_2,o3: ps_4_2,o1
+  mzi_4_2,o4: st_4_2,o1
+  ps_4_2,o2: mzi_5_3,o1
+  st_4_2,o2: mzi_5_4,o2
+
+  mzi_4_3,o3: ps_4_3,o1
+  mzi_4_3,o4: st_4_3,o1
+  ps_4_3,o2: mzi_5_5,o1
+  st_4_3,o2: mzi_5_6,o2
+
+  mzi_4_4,o3: ps_4_4,o1
+  mzi_4_4,o4: st_4_4,o1
+  ps_4_4,o2: mzi_5_7,o1
+  st_4_4,o2: mzi_5_8,o2
+
+  # L8 -> L9 (最后一级 MZI 分出 16 路进入相位校准，严格 ps/st 交替)
+  mzi_5_1,o3: ps_f_1,o1
+  mzi_5_1,o4: st_f_1,o1
+  mzi_5_2,o3: ps_f_2,o1
+  mzi_5_2,o4: st_f_2,o1
+  mzi_5_3,o3: ps_f_3,o1
+  mzi_5_3,o4: st_f_3,o1
+  mzi_5_4,o3: ps_f_4,o1
+  mzi_5_4,o4: st_f_4,o1
+  mzi_5_5,o3: ps_f_5,o1
+  mzi_5_5,o4: st_f_5,o1
+  mzi_5_6,o3: ps_f_6,o1
+  mzi_5_6,o4: st_f_6,o1
+  mzi_5_7,o3: ps_f_7,o1
+  mzi_5_7,o4: st_f_7,o1
+  mzi_5_8,o3: ps_f_8,o1
+  mzi_5_8,o4: st_f_8,o1
+
+  # L9 -> L10 (Final Outputs)
+  ps_f_1,o2: gc_out_0,o1
+  st_f_1,o2: gc_out_1,o1
+  ps_f_2,o2: gc_out_2,o1
+  st_f_2,o2: gc_out_3,o1
+  ps_f_3,o2: gc_out_4,o1
+  st_f_3,o2: gc_out_5,o1
+  ps_f_4,o2: gc_out_6,o1
+  st_f_4,o2: gc_out_7,o1
+  ps_f_5,o2: gc_out_8,o1
+  st_f_5,o2: gc_out_9,o1
+  ps_f_6,o2: gc_out_10,o1
+  st_f_6,o2: gc_out_11,o1
+  ps_f_7,o2: gc_out_12,o1
+  st_f_7,o2: gc_out_13,o1
+  ps_f_8,o2: gc_out_14,o1
+  st_f_8,o2: gc_out_15,o1

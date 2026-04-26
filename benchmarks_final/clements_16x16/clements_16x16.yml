@@ -1,0 +1,798 @@
+name: clements_16x16
+bbox: [[0,0],[8000,3200]]
+instances:
+  gc_in_0:
+    component: grating_coupler_elliptical_lumerical
+  yb_0_0:
+    component: mmi1x2
+  yb_1_0:
+    component: mmi1x2
+  yb_1_1:
+    component: mmi1x2
+  yb_2_0:
+    component: mmi1x2
+  yb_2_1:
+    component: mmi1x2
+  yb_2_2:
+    component: mmi1x2
+  yb_2_3:
+    component: mmi1x2
+  yb_3_0:
+    component: mmi1x2
+  yb_3_1:
+    component: mmi1x2
+  yb_3_2:
+    component: mmi1x2
+  yb_3_3:
+    component: mmi1x2
+  yb_3_4:
+    component: mmi1x2
+  yb_3_5:
+    component: mmi1x2
+  yb_3_6:
+    component: mmi1x2
+  yb_3_7:
+    component: mmi1x2
+  mzi_0:
+    component: mzi
+  mzi_1:
+    component: mzi
+  mzi_2:
+    component: mzi
+  mzi_3:
+    component: mzi
+  mzi_4:
+    component: mzi
+  mzi_5:
+    component: mzi
+  mzi_6:
+    component: mzi
+  mzi_7:
+    component: mzi
+  mzi_8:
+    component: mzi
+  mzi_9:
+    component: mzi
+  mzi_10:
+    component: mzi
+  mzi_11:
+    component: mzi
+  mzi_12:
+    component: mzi
+  mzi_13:
+    component: mzi
+  mzi_14:
+    component: mzi
+  mzi_15:
+    component: mzi
+  gc_out_0:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_1:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_2:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_3:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_4:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_5:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_6:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_7:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_8:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_9:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_10:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_11:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_12:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_13:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_14:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_15:
+    component: grating_coupler_elliptical_lumerical
+  p1:
+    component: mzi2x2_2x2_phase_shifter
+  p2:
+    component: mzi2x2_2x2_phase_shifter
+  p3:
+    component: mzi2x2_2x2_phase_shifter
+  p4:
+    component: mzi2x2_2x2_phase_shifter
+  p5:
+    component: mzi2x2_2x2_phase_shifter
+  p6:
+    component: mzi2x2_2x2_phase_shifter
+  p7:
+    component: mzi2x2_2x2_phase_shifter
+  p8:
+    component: mzi2x2_2x2_phase_shifter
+  p9:
+    component: mzi2x2_2x2_phase_shifter
+  p10:
+    component: mzi2x2_2x2_phase_shifter
+  p11:
+    component: mzi2x2_2x2_phase_shifter
+  p12:
+    component: mzi2x2_2x2_phase_shifter
+  p13:
+    component: mzi2x2_2x2_phase_shifter
+  p14:
+    component: mzi2x2_2x2_phase_shifter
+  p15:
+    component: mzi2x2_2x2_phase_shifter
+  p16:
+    component: mzi2x2_2x2_phase_shifter
+  p17:
+    component: mzi2x2_2x2_phase_shifter
+  p18:
+    component: mzi2x2_2x2_phase_shifter
+  p19:
+    component: mzi2x2_2x2_phase_shifter
+  p20:
+    component: mzi2x2_2x2_phase_shifter
+  p21:
+    component: mzi2x2_2x2_phase_shifter
+  p22:
+    component: mzi2x2_2x2_phase_shifter
+  p23:
+    component: mzi2x2_2x2_phase_shifter
+  p24:
+    component: mzi2x2_2x2_phase_shifter
+  p25:
+    component: mzi2x2_2x2_phase_shifter
+  p26:
+    component: mzi2x2_2x2_phase_shifter
+  p27:
+    component: mzi2x2_2x2_phase_shifter
+  p28:
+    component: mzi2x2_2x2_phase_shifter
+  p29:
+    component: mzi2x2_2x2_phase_shifter
+  p30:
+    component: mzi2x2_2x2_phase_shifter
+  p31:
+    component: mzi2x2_2x2_phase_shifter
+  p32:
+    component: mzi2x2_2x2_phase_shifter
+  p33:
+    component: mzi2x2_2x2_phase_shifter
+  p34:
+    component: mzi2x2_2x2_phase_shifter
+  p35:
+    component: mzi2x2_2x2_phase_shifter
+  p36:
+    component: mzi2x2_2x2_phase_shifter
+  p37:
+    component: mzi2x2_2x2_phase_shifter
+  p38:
+    component: mzi2x2_2x2_phase_shifter
+  p39:
+    component: mzi2x2_2x2_phase_shifter
+  p40:
+    component: mzi2x2_2x2_phase_shifter
+  p41:
+    component: mzi2x2_2x2_phase_shifter
+  p42:
+    component: mzi2x2_2x2_phase_shifter
+  p43:
+    component: mzi2x2_2x2_phase_shifter
+  p44:
+    component: mzi2x2_2x2_phase_shifter
+  p45:
+    component: mzi2x2_2x2_phase_shifter
+  p46:
+    component: mzi2x2_2x2_phase_shifter
+  p47:
+    component: mzi2x2_2x2_phase_shifter
+  p48:
+    component: mzi2x2_2x2_phase_shifter
+  p49:
+    component: mzi2x2_2x2_phase_shifter
+  p50:
+    component: mzi2x2_2x2_phase_shifter
+  p51:
+    component: mzi2x2_2x2_phase_shifter
+  p52:
+    component: mzi2x2_2x2_phase_shifter
+  p53:
+    component: mzi2x2_2x2_phase_shifter
+  p54:
+    component: mzi2x2_2x2_phase_shifter
+  p55:
+    component: mzi2x2_2x2_phase_shifter
+  p56:
+    component: mzi2x2_2x2_phase_shifter
+  p57:
+    component: mzi2x2_2x2_phase_shifter
+  p58:
+    component: mzi2x2_2x2_phase_shifter
+  p59:
+    component: mzi2x2_2x2_phase_shifter
+  p60:
+    component: mzi2x2_2x2_phase_shifter
+  p61:
+    component: mzi2x2_2x2_phase_shifter
+  p62:
+    component: mzi2x2_2x2_phase_shifter
+  p63:
+    component: mzi2x2_2x2_phase_shifter
+  p64:
+    component: mzi2x2_2x2_phase_shifter
+  p65:
+    component: mzi2x2_2x2_phase_shifter
+  p66:
+    component: mzi2x2_2x2_phase_shifter
+  p67:
+    component: mzi2x2_2x2_phase_shifter
+  p68:
+    component: mzi2x2_2x2_phase_shifter
+  p69:
+    component: mzi2x2_2x2_phase_shifter
+  p70:
+    component: mzi2x2_2x2_phase_shifter
+  p71:
+    component: mzi2x2_2x2_phase_shifter
+  p72:
+    component: mzi2x2_2x2_phase_shifter
+  p73:
+    component: mzi2x2_2x2_phase_shifter
+  p74:
+    component: mzi2x2_2x2_phase_shifter
+  p75:
+    component: mzi2x2_2x2_phase_shifter
+  p76:
+    component: mzi2x2_2x2_phase_shifter
+  p77:
+    component: mzi2x2_2x2_phase_shifter
+  p78:
+    component: mzi2x2_2x2_phase_shifter
+  p79:
+    component: mzi2x2_2x2_phase_shifter
+  p80:
+    component: mzi2x2_2x2_phase_shifter
+  p81:
+    component: mzi2x2_2x2_phase_shifter
+  p82:
+    component: mzi2x2_2x2_phase_shifter
+  p83:
+    component: mzi2x2_2x2_phase_shifter
+  p84:
+    component: mzi2x2_2x2_phase_shifter
+  p85:
+    component: mzi2x2_2x2_phase_shifter
+  p86:
+    component: mzi2x2_2x2_phase_shifter
+  p87:
+    component: mzi2x2_2x2_phase_shifter
+  p88:
+    component: mzi2x2_2x2_phase_shifter
+  p89:
+    component: mzi2x2_2x2_phase_shifter
+  p90:
+    component: mzi2x2_2x2_phase_shifter
+  p91:
+    component: mzi2x2_2x2_phase_shifter
+  p92:
+    component: mzi2x2_2x2_phase_shifter
+  p93:
+    component: mzi2x2_2x2_phase_shifter
+  p94:
+    component: mzi2x2_2x2_phase_shifter
+  p95:
+    component: mzi2x2_2x2_phase_shifter
+  p96:
+    component: mzi2x2_2x2_phase_shifter
+  p97:
+    component: mzi2x2_2x2_phase_shifter
+  p98:
+    component: mzi2x2_2x2_phase_shifter
+  p99:
+    component: mzi2x2_2x2_phase_shifter
+  p100:
+    component: mzi2x2_2x2_phase_shifter
+  p101:
+    component: mzi2x2_2x2_phase_shifter
+  p102:
+    component: mzi2x2_2x2_phase_shifter
+  p103:
+    component: mzi2x2_2x2_phase_shifter
+  p104:
+    component: mzi2x2_2x2_phase_shifter
+  p105:
+    component: mzi2x2_2x2_phase_shifter
+  p106:
+    component: mzi2x2_2x2_phase_shifter
+  p107:
+    component: mzi2x2_2x2_phase_shifter
+  p108:
+    component: mzi2x2_2x2_phase_shifter
+  p109:
+    component: mzi2x2_2x2_phase_shifter
+  p110:
+    component: mzi2x2_2x2_phase_shifter
+  p111:
+    component: mzi2x2_2x2_phase_shifter
+  p112:
+    component: mzi2x2_2x2_phase_shifter
+  p113:
+    component: mzi2x2_2x2_phase_shifter
+  p114:
+    component: mzi2x2_2x2_phase_shifter
+  p115:
+    component: mzi2x2_2x2_phase_shifter
+  p116:
+    component: mzi2x2_2x2_phase_shifter
+  p117:
+    component: mzi2x2_2x2_phase_shifter
+  p118:
+    component: mzi2x2_2x2_phase_shifter
+  p119:
+    component: mzi2x2_2x2_phase_shifter
+  p120:
+    component: mzi2x2_2x2_phase_shifter
+
+placements:
+  gc_in_0: {x: 0.0, y: 1560.0, rotation: 180}
+  yb_0_0: {x: 300.0, y: 1560.0, rotation: 0}
+  yb_1_0: {x: 600.0, y: 780.0, rotation: 0}
+  yb_1_1: {x: 600.0, y: 2340.0, rotation: 0}
+  yb_2_0: {x: 900.0, y: 390.0, rotation: 0}
+  yb_2_1: {x: 900.0, y: 1170.0, rotation: 0}
+  yb_2_2: {x: 900.0, y: 1950.0, rotation: 0}
+  yb_2_3: {x: 900.0, y: 2730.0, rotation: 0}
+  yb_3_0: {x: 1200.0, y: 195.0, rotation: 0}
+  yb_3_1: {x: 1200.0, y: 585.0, rotation: 0}
+  yb_3_2: {x: 1200.0, y: 975.0, rotation: 0}
+  yb_3_3: {x: 1200.0, y: 1365.0, rotation: 0}
+  yb_3_4: {x: 1200.0, y: 1755.0, rotation: 0}
+  yb_3_5: {x: 1200.0, y: 2145.0, rotation: 0}
+  yb_3_6: {x: 1200.0, y: 2535.0, rotation: 0}
+  yb_3_7: {x: 1200.0, y: 2925.0, rotation: 0}
+  mzi_0: {x: 1500.0, y: 195.0, rotation: 0}
+  mzi_1: {x: 1500.0, y: 390.0, rotation: 0}
+  mzi_2: {x: 1500.0, y: 585.0, rotation: 0}
+  mzi_3: {x: 1500.0, y: 780.0, rotation: 0}
+  mzi_4: {x: 1500.0, y: 975.0, rotation: 0}
+  mzi_5: {x: 1500.0, y: 1170.0, rotation: 0}
+  mzi_6: {x: 1500.0, y: 1365.0, rotation: 0}
+  mzi_7: {x: 1500.0, y: 1560.0, rotation: 0}
+  mzi_8: {x: 1500.0, y: 1755.0, rotation: 0}
+  mzi_9: {x: 1500.0, y: 1950.0, rotation: 0}
+  mzi_10: {x: 1500.0, y: 2145.0, rotation: 0}
+  mzi_11: {x: 1500.0, y: 2340.0, rotation: 0}
+  mzi_12: {x: 1500.0, y: 2535.0, rotation: 0}
+  mzi_13: {x: 1500.0, y: 2730.0, rotation: 0}
+  mzi_14: {x: 1500.0, y: 2925.0, rotation: 0}
+  mzi_15: {x: 1500.0, y: 3120.0, rotation: 0}
+  gc_out_0: {x: 7900.0, y: 195.0, rotation: 0}
+  gc_out_1: {x: 7900.0, y: 390.0, rotation: 0}
+  gc_out_2: {x: 7900.0, y: 585.0, rotation: 0}
+  gc_out_3: {x: 7900.0, y: 780.0, rotation: 0}
+  gc_out_4: {x: 7900.0, y: 975.0, rotation: 0}
+  gc_out_5: {x: 7900.0, y: 1170.0, rotation: 0}
+  gc_out_6: {x: 7900.0, y: 1365.0, rotation: 0}
+  gc_out_7: {x: 7900.0, y: 1560.0, rotation: 0}
+  gc_out_8: {x: 7900.0, y: 1755.0, rotation: 0}
+  gc_out_9: {x: 7900.0, y: 1950.0, rotation: 0}
+  gc_out_10: {x: 7900.0, y: 2145.0, rotation: 0}
+  gc_out_11: {x: 7900.0, y: 2340.0, rotation: 0}
+  gc_out_12: {x: 7900.0, y: 2535.0, rotation: 0}
+  gc_out_13: {x: 7900.0, y: 2730.0, rotation: 0}
+  gc_out_14: {x: 7900.0, y: 2925.0, rotation: 0}
+  gc_out_15: {x: 7900.0, y: 3120.0, rotation: 0}
+  p1: {x: 1900.0, y: 0.0, rotation: 0}
+  p2: {x: 1900.0, y: 157.5, rotation: 0}
+  p3: {x: 1900.0, y: 315.0, rotation: 0}
+  p4: {x: 1900.0, y: 472.5, rotation: 0}
+  p5: {x: 1900.0, y: 630.0, rotation: 0}
+  p6: {x: 1900.0, y: 787.5, rotation: 0}
+  p7: {x: 1900.0, y: 945.0, rotation: 0}
+  p8: {x: 1900.0, y: 1102.5, rotation: 0}
+  p9: {x: 2260.0, y: 78.75, rotation: 0}
+  p10: {x: 2260.0, y: 236.25, rotation: 0}
+  p11: {x: 2260.0, y: 393.75, rotation: 0}
+  p12: {x: 2260.0, y: 551.25, rotation: 0}
+  p13: {x: 2260.0, y: 708.75, rotation: 0}
+  p14: {x: 2260.0, y: 866.25, rotation: 0}
+  p15: {x: 2260.0, y: 1023.75, rotation: 0}
+  p16: {x: 2620.0, y: 0.0, rotation: 0}
+  p17: {x: 2620.0, y: 157.5, rotation: 0}
+  p18: {x: 2620.0, y: 315.0, rotation: 0}
+  p19: {x: 2620.0, y: 472.5, rotation: 0}
+  p20: {x: 2620.0, y: 630.0, rotation: 0}
+  p21: {x: 2620.0, y: 787.5, rotation: 0}
+  p22: {x: 2620.0, y: 945.0, rotation: 0}
+  p23: {x: 2620.0, y: 1102.5, rotation: 0}
+  p24: {x: 2980.0, y: 78.75, rotation: 0}
+  p25: {x: 2980.0, y: 236.25, rotation: 0}
+  p26: {x: 2980.0, y: 393.75, rotation: 0}
+  p27: {x: 2980.0, y: 551.25, rotation: 0}
+  p28: {x: 2980.0, y: 708.75, rotation: 0}
+  p29: {x: 2980.0, y: 866.25, rotation: 0}
+  p30: {x: 2980.0, y: 1023.75, rotation: 0}
+  p31: {x: 3340.0, y: 0.0, rotation: 0}
+  p32: {x: 3340.0, y: 157.5, rotation: 0}
+  p33: {x: 3340.0, y: 315.0, rotation: 0}
+  p34: {x: 3340.0, y: 472.5, rotation: 0}
+  p35: {x: 3340.0, y: 630.0, rotation: 0}
+  p36: {x: 3340.0, y: 787.5, rotation: 0}
+  p37: {x: 3340.0, y: 945.0, rotation: 0}
+  p38: {x: 3340.0, y: 1102.5, rotation: 0}
+  p39: {x: 3700.0, y: 78.75, rotation: 0}
+  p40: {x: 3700.0, y: 236.25, rotation: 0}
+  p41: {x: 3700.0, y: 393.75, rotation: 0}
+  p42: {x: 3700.0, y: 551.25, rotation: 0}
+  p43: {x: 3700.0, y: 708.75, rotation: 0}
+  p44: {x: 3700.0, y: 866.25, rotation: 0}
+  p45: {x: 3700.0, y: 1023.75, rotation: 0}
+  p46: {x: 4060.0, y: 0.0, rotation: 0}
+  p47: {x: 4060.0, y: 157.5, rotation: 0}
+  p48: {x: 4060.0, y: 315.0, rotation: 0}
+  p49: {x: 4060.0, y: 472.5, rotation: 0}
+  p50: {x: 4060.0, y: 630.0, rotation: 0}
+  p51: {x: 4060.0, y: 787.5, rotation: 0}
+  p52: {x: 4060.0, y: 945.0, rotation: 0}
+  p53: {x: 4060.0, y: 1102.5, rotation: 0}
+  p54: {x: 4420.0, y: 78.75, rotation: 0}
+  p55: {x: 4420.0, y: 236.25, rotation: 0}
+  p56: {x: 4420.0, y: 393.75, rotation: 0}
+  p57: {x: 4420.0, y: 551.25, rotation: 0}
+  p58: {x: 4420.0, y: 708.75, rotation: 0}
+  p59: {x: 4420.0, y: 866.25, rotation: 0}
+  p60: {x: 4420.0, y: 1023.75, rotation: 0}
+  p61: {x: 4780.0, y: 0.0, rotation: 0}
+  p62: {x: 4780.0, y: 157.5, rotation: 0}
+  p63: {x: 4780.0, y: 315.0, rotation: 0}
+  p64: {x: 4780.0, y: 472.5, rotation: 0}
+  p65: {x: 4780.0, y: 630.0, rotation: 0}
+  p66: {x: 4780.0, y: 787.5, rotation: 0}
+  p67: {x: 4780.0, y: 945.0, rotation: 0}
+  p68: {x: 4780.0, y: 1102.5, rotation: 0}
+  p69: {x: 5140.0, y: 78.75, rotation: 0}
+  p70: {x: 5140.0, y: 236.25, rotation: 0}
+  p71: {x: 5140.0, y: 393.75, rotation: 0}
+  p72: {x: 5140.0, y: 551.25, rotation: 0}
+  p73: {x: 5140.0, y: 708.75, rotation: 0}
+  p74: {x: 5140.0, y: 866.25, rotation: 0}
+  p75: {x: 5140.0, y: 1023.75, rotation: 0}
+  p76: {x: 5500.0, y: 0.0, rotation: 0}
+  p77: {x: 5500.0, y: 157.5, rotation: 0}
+  p78: {x: 5500.0, y: 315.0, rotation: 0}
+  p79: {x: 5500.0, y: 472.5, rotation: 0}
+  p80: {x: 5500.0, y: 630.0, rotation: 0}
+  p81: {x: 5500.0, y: 787.5, rotation: 0}
+  p82: {x: 5500.0, y: 945.0, rotation: 0}
+  p83: {x: 5500.0, y: 1102.5, rotation: 0}
+  p84: {x: 5860.0, y: 78.75, rotation: 0}
+  p85: {x: 5860.0, y: 236.25, rotation: 0}
+  p86: {x: 5860.0, y: 393.75, rotation: 0}
+  p87: {x: 5860.0, y: 551.25, rotation: 0}
+  p88: {x: 5860.0, y: 708.75, rotation: 0}
+  p89: {x: 5860.0, y: 866.25, rotation: 0}
+  p90: {x: 5860.0, y: 1023.75, rotation: 0}
+  p91: {x: 6220.0, y: 0.0, rotation: 0}
+  p92: {x: 6220.0, y: 157.5, rotation: 0}
+  p93: {x: 6220.0, y: 315.0, rotation: 0}
+  p94: {x: 6220.0, y: 472.5, rotation: 0}
+  p95: {x: 6220.0, y: 630.0, rotation: 0}
+  p96: {x: 6220.0, y: 787.5, rotation: 0}
+  p97: {x: 6220.0, y: 945.0, rotation: 0}
+  p98: {x: 6220.0, y: 1102.5, rotation: 0}
+  p99: {x: 6580.0, y: 78.75, rotation: 0}
+  p100: {x: 6580.0, y: 236.25, rotation: 0}
+  p101: {x: 6580.0, y: 393.75, rotation: 0}
+  p102: {x: 6580.0, y: 551.25, rotation: 0}
+  p103: {x: 6580.0, y: 708.75, rotation: 0}
+  p104: {x: 6580.0, y: 866.25, rotation: 0}
+  p105: {x: 6580.0, y: 1023.75, rotation: 0}
+  p106: {x: 6940.0, y: 0.0, rotation: 0}
+  p107: {x: 6940.0, y: 157.5, rotation: 0}
+  p108: {x: 6940.0, y: 315.0, rotation: 0}
+  p109: {x: 6940.0, y: 472.5, rotation: 0}
+  p110: {x: 6940.0, y: 630.0, rotation: 0}
+  p111: {x: 6940.0, y: 787.5, rotation: 0}
+  p112: {x: 6940.0, y: 945.0, rotation: 0}
+  p113: {x: 6940.0, y: 1102.5, rotation: 0}
+  p114: {x: 7300.0, y: 78.75, rotation: 0}
+  p115: {x: 7300.0, y: 236.25, rotation: 0}
+  p116: {x: 7300.0, y: 393.75, rotation: 0}
+  p117: {x: 7300.0, y: 551.25, rotation: 0}
+  p118: {x: 7300.0, y: 708.75, rotation: 0}
+  p119: {x: 7300.0, y: 866.25, rotation: 0}
+  p120: {x: 7300.0, y: 1023.75, rotation: 0}
+
+connections:
+  gc_in_0,o1: yb_0_0,o1
+  yb_0_0,o3: yb_1_0,o1
+  yb_0_0,o2: yb_1_1,o1
+  yb_1_0,o3: yb_2_0,o1
+  yb_1_0,o2: yb_2_1,o1
+  yb_1_1,o3: yb_2_2,o1
+  yb_1_1,o2: yb_2_3,o1
+  yb_2_0,o3: yb_3_0,o1
+  yb_2_0,o2: yb_3_1,o1
+  yb_2_1,o3: yb_3_2,o1
+  yb_2_1,o2: yb_3_3,o1
+  yb_2_2,o3: yb_3_4,o1
+  yb_2_2,o2: yb_3_5,o1
+  yb_2_3,o3: yb_3_6,o1
+  yb_2_3,o2: yb_3_7,o1
+  yb_3_0,o3: mzi_0,o1
+  yb_3_0,o2: mzi_1,o1
+  yb_3_1,o3: mzi_2,o1
+  yb_3_1,o2: mzi_3,o1
+  yb_3_2,o3: mzi_4,o1
+  yb_3_2,o2: mzi_5,o1
+  yb_3_3,o3: mzi_6,o1
+  yb_3_3,o2: mzi_7,o1
+  yb_3_4,o3: mzi_8,o1
+  yb_3_4,o2: mzi_9,o1
+  yb_3_5,o3: mzi_10,o1
+  yb_3_5,o2: mzi_11,o1
+  yb_3_6,o3: mzi_12,o1
+  yb_3_6,o2: mzi_13,o1
+  yb_3_7,o3: mzi_14,o1
+  yb_3_7,o2: mzi_15,o1
+  mzi_0,o2: p1,o1
+  mzi_1,o2: p1,o2
+  mzi_2,o2: p2,o1
+  mzi_3,o2: p2,o2
+  mzi_4,o2: p3,o1
+  mzi_5,o2: p3,o2
+  mzi_6,o2: p4,o1
+  mzi_7,o2: p4,o2
+  mzi_8,o2: p5,o1
+  mzi_9,o2: p5,o2
+  mzi_10,o2: p6,o1
+  mzi_11,o2: p6,o2
+  mzi_12,o2: p7,o1
+  mzi_13,o2: p7,o2
+  mzi_14,o2: p8,o1
+  mzi_15,o2: p8,o2
+  p1,o3: p9,o1
+  p1,o4: p16,o1
+  p2,o3: p10,o1
+  p2,o4: p9,o2
+  p3,o3: p11,o1
+  p3,o4: p10,o2
+  p4,o3: p12,o1
+  p4,o4: p11,o2
+  p5,o3: p13,o1
+  p5,o4: p12,o2
+  p6,o3: p14,o1
+  p6,o4: p13,o2
+  p7,o3: p15,o1
+  p7,o4: p14,o2
+  p8,o3: p23,o2
+  p8,o4: p15,o2
+  p9,o3: p17,o1
+  p9,o4: p16,o2
+  p10,o3: p18,o1
+  p10,o4: p17,o2
+  p11,o3: p19,o1
+  p11,o4: p18,o2
+  p12,o3: p20,o1
+  p12,o4: p19,o2
+  p13,o3: p21,o1
+  p13,o4: p20,o2
+  p14,o3: p22,o1
+  p14,o4: p21,o2
+  p15,o3: p23,o1
+  p15,o4: p22,o2
+  p16,o3: p24,o1
+  p16,o4: p31,o1
+  p17,o3: p25,o1
+  p17,o4: p24,o2
+  p18,o3: p26,o1
+  p18,o4: p25,o2
+  p19,o3: p27,o1
+  p19,o4: p26,o2
+  p20,o3: p28,o1
+  p20,o4: p27,o2
+  p21,o3: p29,o1
+  p21,o4: p28,o2
+  p22,o3: p30,o1
+  p22,o4: p29,o2
+  p23,o3: p38,o2
+  p23,o4: p30,o2
+  p24,o3: p32,o1
+  p24,o4: p31,o2
+  p25,o3: p33,o1
+  p25,o4: p32,o2
+  p26,o3: p34,o1
+  p26,o4: p33,o2
+  p27,o3: p35,o1
+  p27,o4: p34,o2
+  p28,o3: p36,o1
+  p28,o4: p35,o2
+  p29,o3: p37,o1
+  p29,o4: p36,o2
+  p30,o3: p38,o1
+  p30,o4: p37,o2
+  p31,o3: p39,o1
+  p31,o4: p46,o1
+  p32,o3: p40,o1
+  p32,o4: p39,o2
+  p33,o3: p41,o1
+  p33,o4: p40,o2
+  p34,o3: p42,o1
+  p34,o4: p41,o2
+  p35,o3: p43,o1
+  p35,o4: p42,o2
+  p36,o3: p44,o1
+  p36,o4: p43,o2
+  p37,o3: p45,o1
+  p37,o4: p44,o2
+  p38,o3: p53,o2
+  p38,o4: p45,o2
+  p39,o3: p47,o1
+  p39,o4: p46,o2
+  p40,o3: p48,o1
+  p40,o4: p47,o2
+  p41,o3: p49,o1
+  p41,o4: p48,o2
+  p42,o3: p50,o1
+  p42,o4: p49,o2
+  p43,o3: p51,o1
+  p43,o4: p50,o2
+  p44,o3: p52,o1
+  p44,o4: p51,o2
+  p45,o3: p53,o1
+  p45,o4: p52,o2
+  p46,o3: p54,o1
+  p46,o4: p61,o1
+  p47,o3: p55,o1
+  p47,o4: p54,o2
+  p48,o3: p56,o1
+  p48,o4: p55,o2
+  p49,o3: p57,o1
+  p49,o4: p56,o2
+  p50,o3: p58,o1
+  p50,o4: p57,o2
+  p51,o3: p59,o1
+  p51,o4: p58,o2
+  p52,o3: p60,o1
+  p52,o4: p59,o2
+  p53,o3: p68,o2
+  p53,o4: p60,o2
+  p54,o3: p62,o1
+  p54,o4: p61,o2
+  p55,o3: p63,o1
+  p55,o4: p62,o2
+  p56,o3: p64,o1
+  p56,o4: p63,o2
+  p57,o3: p65,o1
+  p57,o4: p64,o2
+  p58,o3: p66,o1
+  p58,o4: p65,o2
+  p59,o3: p67,o1
+  p59,o4: p66,o2
+  p60,o3: p68,o1
+  p60,o4: p67,o2
+  p61,o3: p69,o1
+  p61,o4: p76,o1
+  p62,o3: p70,o1
+  p62,o4: p69,o2
+  p63,o3: p71,o1
+  p63,o4: p70,o2
+  p64,o3: p72,o1
+  p64,o4: p71,o2
+  p65,o3: p73,o1
+  p65,o4: p72,o2
+  p66,o3: p74,o1
+  p66,o4: p73,o2
+  p67,o3: p75,o1
+  p67,o4: p74,o2
+  p68,o3: p83,o2
+  p68,o4: p75,o2
+  p69,o3: p77,o1
+  p69,o4: p76,o2
+  p70,o3: p78,o1
+  p70,o4: p77,o2
+  p71,o3: p79,o1
+  p71,o4: p78,o2
+  p72,o3: p80,o1
+  p72,o4: p79,o2
+  p73,o3: p81,o1
+  p73,o4: p80,o2
+  p74,o3: p82,o1
+  p74,o4: p81,o2
+  p75,o3: p83,o1
+  p75,o4: p82,o2
+  p76,o3: p84,o1
+  p76,o4: p91,o1
+  p77,o3: p85,o1
+  p77,o4: p84,o2
+  p78,o3: p86,o1
+  p78,o4: p85,o2
+  p79,o3: p87,o1
+  p79,o4: p86,o2
+  p80,o3: p88,o1
+  p80,o4: p87,o2
+  p81,o3: p89,o1
+  p81,o4: p88,o2
+  p82,o3: p90,o1
+  p82,o4: p89,o2
+  p83,o3: p98,o2
+  p83,o4: p90,o2
+  p84,o3: p92,o1
+  p84,o4: p91,o2
+  p85,o3: p93,o1
+  p85,o4: p92,o2
+  p86,o3: p94,o1
+  p86,o4: p93,o2
+  p87,o3: p95,o1
+  p87,o4: p94,o2
+  p88,o3: p96,o1
+  p88,o4: p95,o2
+  p89,o3: p97,o1
+  p89,o4: p96,o2
+  p90,o3: p98,o1
+  p90,o4: p97,o2
+  p91,o3: p99,o1
+  p91,o4: p106,o1
+  p92,o3: p100,o1
+  p92,o4: p99,o2
+  p93,o3: p101,o1
+  p93,o4: p100,o2
+  p94,o3: p102,o1
+  p94,o4: p101,o2
+  p95,o3: p103,o1
+  p95,o4: p102,o2
+  p96,o3: p104,o1
+  p96,o4: p103,o2
+  p97,o3: p105,o1
+  p97,o4: p104,o2
+  p98,o3: p113,o2
+  p98,o4: p105,o2
+  p99,o3: p107,o1
+  p99,o4: p106,o2
+  p100,o3: p108,o1
+  p100,o4: p107,o2
+  p101,o3: p109,o1
+  p101,o4: p108,o2
+  p102,o3: p110,o1
+  p102,o4: p109,o2
+  p103,o3: p111,o1
+  p103,o4: p110,o2
+  p104,o3: p112,o1
+  p104,o4: p111,o2
+  p105,o3: p113,o1
+  p105,o4: p112,o2
+  p106,o3: p114,o1
+  p106,o4: gc_out_0,o1
+  p107,o3: p115,o1
+  p107,o4: p114,o2
+  p108,o3: p116,o1
+  p108,o4: p115,o2
+  p109,o3: p117,o1
+  p109,o4: p116,o2
+  p110,o3: p118,o1
+  p110,o4: p117,o2
+  p111,o3: p119,o1
+  p111,o4: p118,o2
+  p112,o3: p120,o1
+  p112,o4: p119,o2
+  p113,o3: gc_out_15,o1
+  p113,o4: p120,o2
+  p114,o4: gc_out_1,o1
+  p114,o3: gc_out_2,o1
+  p115,o4: gc_out_3,o1
+  p115,o3: gc_out_4,o1
+  p116,o4: gc_out_5,o1
+  p116,o3: gc_out_6,o1
+  p117,o4: gc_out_7,o1
+  p117,o3: gc_out_8,o1
+  p118,o4: gc_out_9,o1
+  p118,o3: gc_out_10,o1
+  p119,o4: gc_out_11,o1
+  p119,o3: gc_out_12,o1
+  p120,o4: gc_out_13,o1
+  p120,o3: gc_out_14,o1

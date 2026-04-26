@@ -1,0 +1,16 @@
+# ===============================
+# Placement
+# ===============================
+
+placement:
+  rowNum: 375
+  siteNum: 4800
+  coordinateOrigin: 0
+  SubrowOrigin: 100
+  siteHeight: 8
+  siteWidth: 1
+  siteSpacing: 1
+  halo: 30
+  halo_x: 0 
+  halo_y: 0
+  legalizeSpacing: -1

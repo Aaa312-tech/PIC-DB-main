@@ -1,0 +1,5693 @@
+blocks:
+  bend_circular:
+    bbox:
+    - - 0.0
+      - -0.25
+    - - 10.25
+      - -0.25
+    - - 10.25
+      - 10.0
+    - - 0.0
+      - 10.0
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      allow_min_radius_violation:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: false
+      angle:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 90
+      cross_section:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: strip
+    pins:
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 0.0
+        - 0.0
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 10.0
+        - 10.0
+        - 90.0
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  bend_euler:
+    bbox:
+    - - 0.0
+      - -0.25
+    - - 10.25
+      - -0.25
+    - - 10.25
+      - 10.0
+    - - 0.0
+      - 10.0
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      allow_min_radius_violation:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: false
+      angle:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 90
+      cross_section:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: strip
+      p:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.5
+      with_arc_floorplan:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: true
+    pins:
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 0.0
+        - 0.0
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 10.0
+        - 10.0
+        - 90.0
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  bend_euler180:
+    bbox:
+    - - 0.0
+      - -0.25
+    - - 16.328
+      - -0.25
+    - - 16.328
+      - 20.25
+    - - 0.0
+      - 20.25
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      allow_min_radius_violation:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: false
+      angle:
+        doc: null
+        max: 0
+        min: 0
+        type: int
+        unit: null
+        value: 180
+      cross_section:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: strip
+      p:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.5
+      with_arc_floorplan:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: true
+    pins:
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 0.0
+        - 0.0
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 0.0
+        - 20.0
+        - 180.0
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  bend_s:
+    bbox:
+    - - 0.0
+      - -0.25
+    - - 11.0
+      - -0.25
+    - - 11.0
+      - 2.05
+    - - 0.0
+      - 2.05
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      allow_min_radius_violation:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: false
+      cross_section:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: strip
+      npoints:
+        doc: null
+        max: 0
+        min: 0
+        type: int
+        unit: null
+        value: 99
+    pins:
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 0.0
+        - 0.0
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 11.0
+        - 1.8
+        - 0.0
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  coupler:
+    bbox:
+    - - -10.0
+      - -1.8820000000000001
+    - - 30.0
+      - -1.8820000000000001
+    - - 30.0
+      - 2.618
+    - - -10.0
+      - 2.618
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      allow_min_radius_violation:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: false
+      bend:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: bend_s
+      cross_section:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: strip
+      dx:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 10
+      dy:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 4
+      gap:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.236
+      length:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 20
+    pins:
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - -10.0
+        - -1.6320000000000001
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - -10.0
+        - 2.368
+        - 180.0
+      o3:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 30.0
+        - 2.368
+        - 0.0
+      o4:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 30.0
+        - -1.6320000000000001
+        - 0.0
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  coupler_ring:
+    bbox:
+    - - -17.0
+      - -0.25
+    - - 13.0
+      - -0.25
+    - - 13.0
+      - 10.700000000000001
+    - - -17.0
+      - 10.700000000000001
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      bend:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: bend_euler
+      cross_section:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: strip
+      gap:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.2
+      length_x:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 4
+      straight:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: straight
+    pins:
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - -17.0
+        - 0.0
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - -14.0
+        - 10.700000000000001
+        - 90.0
+      o3:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 10.0
+        - 10.700000000000001
+        - 90.0
+      o4:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 13.0
+        - 0.0
+        - 0.0
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  delay_snake2:
+    bbox:
+    - - -16.328
+      - -40.25
+    - - 521.117
+      - -40.25
+    - - 521.117
+      - 0.25
+    - - -16.328
+      - 0.25
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      bend180:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: bend_euler180
+      cross_section:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: strip
+      length:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 1600
+      length0:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0
+      length2:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0
+      n:
+        doc: null
+        max: 0
+        min: 0
+        type: int
+        unit: null
+        value: 2
+    pins:
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 0.0
+        - 0.0
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 504.789
+        - -40.0
+        - 0.0
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  ge_detector_straight_si_contacts:
+    bbox:
+    - - -20.0
+      - -12.5
+    - - 40.0
+      - -12.5
+    - - 40.0
+      - 12.5
+    - - -20.0
+      - 12.5
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      cross_section:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: pn_ge_detector_si_contacts
+      length:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 40
+      taper_cros_section:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: strip
+      taper_length:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 20
+      taper_width:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.8
+      via_stack:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: via_stack_slab_m3
+      via_stack_offset:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0
+      via_stack_spacing:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 5
+      via_stack_width:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 10
+    pins:
+      bot:
+        alias: null
+        doc: null
+        width: 10.0
+        xsection: 'strip'
+        xya:
+        - 40.0
+        - -7.5
+        - 0.0
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - -20.0
+        - 0.0
+        - 180.0
+      top:
+        alias: null
+        doc: null
+        width: 10.0
+        xsection: 'strip'
+        xya:
+        - 40.0
+        - 7.5
+        - 0.0
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  grating_coupler_array:
+    bbox:
+    - - -330.587
+      - -40.195
+    - - 330.587
+      - -40.195
+    - - 330.587
+      - 0.0
+    - - -330.587
+      - 0.0
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      bend:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: bend_euler
+      centered:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: true
+      cross_section:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: strip
+      grating_coupler:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: grating_coupler_elliptical
+      mirror_grating_coupler:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: false
+      n:
+        doc: null
+        max: 0
+        min: 0
+        type: int
+        unit: null
+        value: 6
+      pitch:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 127
+      port_name:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: o1
+      rotation:
+        doc: null
+        max: 0
+        min: 0
+        type: int
+        unit: null
+        value: -90
+      straight_to_grating_spacing:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 10
+      with_loopback:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: false
+    pins:
+      o0:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - -317.5
+        - 0.0
+        - 90.0
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - -190.5
+        - 0.0
+        - 90.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - -63.5
+        - 0.0
+        - 90.0
+      o3:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 63.5
+        - 0.0
+        - 90.0
+      o4:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 190.5
+        - 0.0
+        - 90.0
+      o5:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 317.5
+        - 0.0
+        - 90.0
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  grating_coupler_elliptical:
+    bbox:
+    - - 0.0
+      - -13.087
+    - - 40.195
+      - -13.087
+    - - 40.195
+      - 13.087
+    - - 0.0
+      - 13.087
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      big_last_tooth:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: false
+      cross_section:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: strip
+      fiber_angle:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 15
+      grating_line_width:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.343
+      layer_slab:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: SLAB150
+      n_periods:
+        doc: null
+        max: 0
+        min: 0
+        type: int
+        unit: null
+        value: 30
+      nclad:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 1.443
+      neff:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 2.638
+      polarization:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: te
+      slab_offset:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 2
+      slab_xmin:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: -1
+      spiked:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: true
+      taper_angle:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 40
+      taper_length:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 16.6
+      wavelength:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 1.554
+    pins:
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 0.0
+        - 0.0
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 10.0
+        xsection: 'strip'
+        xya:
+        - 16.6
+        - 0.0
+        - 0.0
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  grating_coupler_elliptical_lumerical:
+    bbox:
+    - - 0.24
+      - -12.873000000000001
+    - - 27.404
+      - -12.873000000000001
+    - - 27.404
+      - 12.873000000000001
+    - - 0.24
+      - 12.873000000000001
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      bias_gap:
+        doc: null
+        max: 0
+        min: 0
+        type: int
+        unit: null
+        value: 0
+      cross_section:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: strip
+      fiber_angle:
+        doc: null
+        max: 0
+        min: 0
+        type: int
+        unit: null
+        value: 5
+      layer_slab:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: SLAB150
+      taper_angle:
+        doc: null
+        max: 0
+        min: 0
+        type: int
+        unit: null
+        value: 55
+      taper_length:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 12.6
+    pins:
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 0.24
+        - 0.0
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 10.0
+        xsection: 'strip'
+        xya:
+        - 19.67
+        - 0.0
+        - 0.0
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  mmi1x2:
+    bbox:
+    - - -10.0
+      - -1.25
+    - - 15.5
+      - -1.25
+    - - 15.5
+      - 1.25
+    - - -10.0
+      - 1.25
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      cross_section:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: strip
+      gap_mmi:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.25
+      length_mmi:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 5.5
+      length_taper:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 10
+      straight:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: straight
+      taper:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: taper
+      width_mmi:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 2.5
+      width_taper:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 1
+    pins:
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - -10.0
+        - 0.0
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 15.5
+        - 0.625
+        - 0.0
+      o3:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 15.5
+        - -0.625
+        - 0.0
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  mmi2x2:
+    bbox:
+    - - -10.0
+      - -1.25
+    - - 15.5
+      - -1.25
+    - - 15.5
+      - 1.25
+    - - -10.0
+      - 1.25
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      cross_section:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: strip
+      gap_mmi:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.25
+      length_mmi:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 5.5
+      length_taper:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 10
+      straight:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: straight
+      taper:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: taper
+      width_mmi:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 2.5
+      width_taper:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 1
+    pins:
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - -10.0
+        - -0.625
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - -10.0
+        - 0.625
+        - 180.0
+      o3:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 15.5
+        - 0.625
+        - 0.0
+      o4:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 15.5
+        - -0.625
+        - 0.0
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  mzi:
+    bbox:
+    - - -10.0
+      - -27.875
+    - - 81.10000000000001
+      - -27.875
+    - - 81.10000000000001
+      - 22.875
+    - - -10.0
+      - 22.875
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      add_optical_ports_arms:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: false
+      auto_detect_port_names:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: false
+      auto_rename_ports:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: true
+      bend:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: bend_euler
+      cross_section:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: strip
+      delta_length:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 10
+      length_x:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.1
+      length_y:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 2
+      min_length:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.01
+      mirror_bot:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: false
+      nbends:
+        doc: null
+        max: 0
+        min: 0
+        type: int
+        unit: null
+        value: 2
+      port1:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: o1
+      port2:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: o2
+      port_e0_combiner:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: o3
+      port_e0_splitter:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: o3
+      port_e1_combiner:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: o2
+      port_e1_splitter:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: o2
+      splitter:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: mmi1x2
+      straight:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: straight
+      with_splitter:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: true
+    pins:
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - -10.0
+        - 0.0
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 81.10000000000001
+        - 0.0
+        - 0.0
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  mzi2x2_2x2:
+    bbox:
+    - - -10.0
+      - -27.875
+    - - 91.0
+      - -27.875
+    - - 91.0
+      - 22.875
+    - - -10.0
+      - 22.875
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      add_optical_ports_arms:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: false
+      auto_detect_port_names:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: false
+      auto_rename_ports:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: true
+      bend:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: bend_euler
+      combiner:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: mmi2x2
+      cross_section:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: strip
+      delta_length:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 10
+      length_y:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 2
+      min_length:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.01
+      mirror_bot:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: false
+      nbends:
+        doc: null
+        max: 0
+        min: 0
+        type: int
+        unit: null
+        value: 2
+      port1:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: o1
+      port2:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: o2
+      port_e0_combiner:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: o4
+      port_e0_splitter:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: o4
+      port_e1_combiner:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: o3
+      port_e1_splitter:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: o3
+      splitter:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: mmi2x2
+      straight:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: straight
+      with_splitter:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: true
+    pins:
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - -10.0
+        - -0.625
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - -10.0
+        - 0.625
+        - 180.0
+      o3:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 91.0
+        - 0.625
+        - 0.0
+      o4:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 91.0
+        - -0.625
+        - 0.0
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  mzi2x2_2x2_phase_shifter:
+    bbox:
+    - - -10.0
+      - -27.875
+    - - 281.0
+      - -27.875
+    - - 281.0
+      - 28.125
+    - - -10.0
+      - 28.125
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      add_optical_ports_arms:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: false
+      auto_detect_port_names:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: false
+      auto_rename_ports:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: true
+      bend:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: bend_euler
+      combiner:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: mmi2x2
+      cross_section:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: strip
+      delta_length:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 10
+      length_x:
+        doc: null
+        max: 0
+        min: 0
+        type: int
+        unit: null
+        value: 200
+      length_y:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 2
+      min_length:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.01
+      mirror_bot:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: false
+      nbends:
+        doc: null
+        max: 0
+        min: 0
+        type: int
+        unit: null
+        value: 2
+      port1:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: o1
+      port2:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: o2
+      port_e0_combiner:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: o4
+      port_e0_splitter:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: o4
+      port_e1_combiner:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: o3
+      port_e1_splitter:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: o3
+      splitter:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: mmi2x2
+      straight:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: straight
+      straight_x_top:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: straight_heater_metal
+      with_splitter:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: true
+    pins:
+      e1:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 19.6
+        - 22.625
+        - 180.0
+      e2:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 240.4
+        - 22.625
+        - 180.0
+      e3:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 25.1
+        - 28.125
+        - 90.0
+      e4:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 245.9
+        - 28.125
+        - 90.0
+      e5:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 251.4
+        - 22.625
+        - 0.0
+      e6:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 30.6
+        - 22.625
+        - 0.0
+      e7:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 245.9
+        - 17.125
+        - 270.0
+      e8:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 25.1
+        - 17.125
+        - 270.0
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - -10.0
+        - -0.625
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - -10.0
+        - 0.625
+        - 180.0
+      o3:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 281.0
+        - 0.625
+        - 0.0
+      o4:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 281.0
+        - -0.625
+        - 0.0
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  mzi_lattice_mmi:
+    bbox:
+    - - -10.0
+      - -27.875
+    - - 91.0
+      - -27.875
+    - - 91.0
+      - 22.875
+    - - -10.0
+      - 22.875
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      mzi:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: mzi2x2_2x2
+      splitter:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: mmi2x2
+    pins:
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - -10.0
+        - -0.625
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - -10.0
+        - 0.625
+        - 180.0
+      o3:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 91.0
+        - 0.625
+        - 0.0
+      o4:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 91.0
+        - -0.625
+        - 0.0
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  mzi_phase_shifter:
+    bbox:
+    - - -10.0
+      - -27.875
+    - - 281.0
+      - -27.875
+    - - 281.0
+      - 28.125
+    - - -10.0
+      - 28.125
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      add_optical_ports_arms:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: false
+      auto_detect_port_names:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: false
+      auto_rename_ports:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: true
+      bend:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: bend_euler
+      cross_section:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: strip
+      delta_length:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 10
+      length_x:
+        doc: null
+        max: 0
+        min: 0
+        type: int
+        unit: null
+        value: 200
+      length_y:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 2
+      min_length:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.01
+      mirror_bot:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: false
+      nbends:
+        doc: null
+        max: 0
+        min: 0
+        type: int
+        unit: null
+        value: 2
+      port1:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: o1
+      port2:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: o2
+      port_e0_combiner:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: o3
+      port_e0_splitter:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: o3
+      port_e1_combiner:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: o2
+      port_e1_splitter:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: o2
+      splitter:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: mmi1x2
+      straight:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: straight
+      straight_x_top:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: straight_heater_metal
+      with_splitter:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: true
+    pins:
+      e1:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 19.6
+        - 22.625
+        - 180.0
+      e2:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 240.4
+        - 22.625
+        - 180.0
+      e3:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 25.1
+        - 28.125
+        - 90.0
+      e4:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 245.9
+        - 28.125
+        - 90.0
+      e5:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 251.4
+        - 22.625
+        - 0.0
+      e6:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 30.6
+        - 22.625
+        - 0.0
+      e7:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 245.9
+        - 17.125
+        - 270.0
+      e8:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 25.1
+        - 17.125
+        - 270.0
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - -10.0
+        - 0.0
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 281.0
+        - 0.0
+        - 0.0
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  ring_asymmetric:
+    bbox:
+    - - -10.25
+      - -0.25
+    - - 12.25
+      - -0.25
+    - - 12.25
+      - 24.25
+    - - -10.25
+      - 24.25
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      bend:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: bend_circular
+      cross_section:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: strip
+      length_x:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 2
+      length_y:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 4
+      radius:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 10
+      straight:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: straight
+    pins: {}
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  ring_double_heater:
+    bbox:
+    - - -14.0
+      - -2.0
+    - - 13.0
+      - -2.0
+    - - 13.0
+      - 21.96
+    - - -14.0
+      - 21.96
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      bend:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: bend_euler
+      coupler_ring:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: coupler_ring
+      cross_section:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: strip
+      cross_section_heater:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: heater_metal
+      cross_section_waveguide_heater:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: strip_heater_metal
+      gap:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.2
+      length_x:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 1
+      length_y:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.01
+      straight:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: straight
+      via_stack:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: via_stack_heater_mtop_mini
+      with_drop:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: true
+    pins:
+      l_e1:
+        alias: null
+        doc: null
+        width: 4.0
+        xsection: 'strip'
+        xya:
+        - -6.0
+        - 0.0
+        - 180.0
+      l_e2:
+        alias: null
+        doc: null
+        width: 4.0
+        xsection: 'strip'
+        xya:
+        - -4.0
+        - 2.0
+        - 90.0
+      l_e3:
+        alias: null
+        doc: null
+        width: 4.0
+        xsection: 'strip'
+        xya:
+        - -2.0
+        - 0.0
+        - 0.0
+      l_e4:
+        alias: null
+        doc: null
+        width: 4.0
+        xsection: 'strip'
+        xya:
+        - -4.0
+        - -2.0
+        - 270.0
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - -14.0
+        - 0.0
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 13.0
+        - 0.0
+        - 0.0
+      o3:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - -14.0
+        - 21.41
+        - 180.0
+      o4:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 13.0
+        - 21.41
+        - 0.0
+      r_e1:
+        alias: null
+        doc: null
+        width: 4.0
+        xsection: 'strip'
+        xya:
+        - 1.0
+        - 0.0
+        - 180.0
+      r_e2:
+        alias: null
+        doc: null
+        width: 4.0
+        xsection: 'strip'
+        xya:
+        - 3.0
+        - 2.0
+        - 90.0
+      r_e3:
+        alias: null
+        doc: null
+        width: 4.0
+        xsection: 'strip'
+        xya:
+        - 5.0
+        - 0.0
+        - 0.0
+      r_e4:
+        alias: null
+        doc: null
+        width: 4.0
+        xsection: 'strip'
+        xya:
+        - 3.0
+        - -2.0
+        - 270.0
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  ring_double_pn:
+    bbox:
+    - - -7.426
+      - -9.05
+    - - 7.426
+      - -9.05
+    - - 7.426
+      - 9.05
+    - - -7.426
+      - 9.05
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      add_gap:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.3
+      cross_section:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: rib
+      doped_heater:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: true
+      doped_heater_angle_buffer:
+        doc: null
+        max: 0
+        min: 0
+        type: int
+        unit: null
+        value: 10
+      doped_heater_layer:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: NPP
+      doped_heater_waveguide_offset:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 2.175
+      doped_heater_width:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.5
+      doping_angle:
+        doc: null
+        max: 0
+        min: 0
+        type: int
+        unit: null
+        value: 85
+      drop_gap:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.3
+      heater_vias:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: Fvia_stack_Mgdsfactorypcomponentspviaspvia_stack_SS0p5_0p5_LM1_M2_M3_VFvia_Mgdsfactorypcomponentspviaspvia_SLVIAC_S0p1_0p1_E0p01_P0p2_Fvia_Mgdsfactorypcomponentspviaspvia_SLVIA1_S0p1_0p1_E0p01_P0p2_None_CSTrue
+      pn_cross_section:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: Fpn_Mgdsfactorypcross_section_SWD2p425_WS4p85_LVVIAC_WV0p5_LMM1_WM0p5
+      radius:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 5
+      with_drop:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: true
+    pins:
+      htr_bot_gnd:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 1.8940000000000001
+        - -2.657
+        - 90.0
+      htr_bot_sig:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - -1.923
+        - -2.657
+        - 90.0
+      htr_top_gnd:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - -1.895
+        - 3.157
+        - 90.0
+      htr_top_sig:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 1.922
+        - 3.157
+        - 90.0
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - -3.6870000000000003
+        - -5.8
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 3.686
+        - -5.8
+        - 0.0
+      o3:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 3.686
+        - 5.8
+        - 0.0
+      o4:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - -3.6870000000000003
+        - 5.8
+        - 180.0
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  ring_single_pn:
+    bbox:
+    - - -7.297
+      - -8.474
+    - - 7.555
+      - -8.474
+    - - 7.555
+      - 7.9990000000000006
+    - - -7.297
+      - 7.9990000000000006
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      cross_section:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: rib
+      doped_heater:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: true
+      doped_heater_angle_buffer:
+        doc: null
+        max: 0
+        min: 0
+        type: int
+        unit: null
+        value: 10
+      doped_heater_layer:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: NPP
+      doped_heater_waveguide_offset:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 1.175
+      doped_heater_width:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.5
+      doping_angle:
+        doc: null
+        max: 0
+        min: 0
+        type: int
+        unit: null
+        value: 250
+      gap:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.3
+      heater_vias:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: Fvia_stack_Mgdsfactorypcomponentspviaspvia_stack_SS0p5_0p5_LM1_M2_M3_VFvia_Mgdsfactorypcomponentspviaspvia_SLVIAC_S0p1_0p1_E0p01_P0p2_Fvia_Mgdsfactorypcomponentspviaspvia_SLVIA1_S0p1_0p1_E0p01_P0p2_None_CSTrue
+      pn_cross_section:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: Fpn_Mgdsfactorypcross_section_SWD2p425_WS4p85_LVVIAC_WV0p5_LMM1_WM0p5
+      pn_vias:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: via_stack_slab_m3
+      pn_vias_width:
+        doc: null
+        max: 0
+        min: 0
+        type: int
+        unit: null
+        value: 3
+      radius:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 5
+    pins:
+      gnd:
+        alias: null
+        doc: null
+        width: 3.0
+        xsection: 'strip'
+        xya:
+        - -2.185
+        - 0.455
+        - 90.0
+      heater_gnd:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 2.66
+        - -2.566
+        - 270.0
+      heater_sig:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - -2.7
+        - -2.566
+        - 270.0
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - -4.096
+        - -5.224
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 4.096
+        - -5.224
+        - 0.0
+      sig:
+        alias: null
+        doc: null
+        width: 3.0
+        xsection: 'strip'
+        xya:
+        - 6.006
+        - -2.041
+        - 90.0
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  splitter_tree:
+    bbox:
+    - - -10.0
+      - -37.75
+    - - 195.5
+      - -37.75
+    - - 195.5
+      - 37.75
+    - - -10.0
+      - 37.75
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      bend_s:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: bend_s
+      coupler:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: mmi1x2
+      cross_section:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: strip
+      noutputs:
+        doc: null
+        max: 0
+        min: 0
+        type: int
+        unit: null
+        value: 4
+    pins:
+      o1_0_0:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - -10.0
+        - 0.0
+        - 180.0
+      o2_1_1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 195.5
+        - -12.5
+        - 0.0
+      o2_1_2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 195.5
+        - -37.5
+        - 0.0
+      o2_1_3:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 195.5
+        - 37.5
+        - 0.0
+      o2_1_4:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 195.5
+        - 12.5
+        - 0.0
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  straight:
+    bbox:
+    - - 0.0
+      - -0.25
+    - - 10.0
+      - -0.25
+    - - 10.0
+      - 0.25
+    - - 0.0
+      - 0.25
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      cross_section:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: strip
+      length:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 10
+      npoints:
+        doc: null
+        max: 0
+        min: 0
+        type: int
+        unit: null
+        value: 2
+    pins:
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 0.0
+        - 0.0
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 10.0
+        - 0.0
+        - 0.0
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  straight_heater_metal:
+    bbox:
+    - - -15.9
+      - -5.5
+    - - 335.90000000000003
+      - -5.5
+    - - 335.90000000000003
+      - 5.5
+    - - -15.9
+      - 5.5
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      cross_section:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: strip
+      cross_section_heater:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: heater_metal
+      cross_section_heater_undercut:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: strip_heater_metal_undercut
+      cross_section_waveguide_heater:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: strip_heater_metal
+      heater_taper_length:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 5
+      length:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 320
+      length_straight:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.1
+      length_straight_input:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.1
+      length_undercut:
+        doc: null
+        max: 0
+        min: 0
+        type: int
+        unit: null
+        value: 5
+      length_undercut_spacing:
+        doc: null
+        max: 0
+        min: 0
+        type: int
+        unit: null
+        value: 0
+      via_stack:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: via_stack_heater_mtop
+      with_undercut:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: false
+    pins:
+      l_e1:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - -15.9
+        - 0.0
+        - 180.0
+      l_e2:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - -10.4
+        - 5.5
+        - 90.0
+      l_e3:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - -4.9
+        - 0.0
+        - 0.0
+      l_e4:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - -10.4
+        - -5.5
+        - 270.0
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 0.0
+        - 0.0
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 320.0
+        - 0.0
+        - 0.0
+      r_e1:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 324.90000000000003
+        - 0.0
+        - 180.0
+      r_e2:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 330.40000000000003
+        - 5.5
+        - 90.0
+      r_e3:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 335.90000000000003
+        - 0.0
+        - 0.0
+      r_e4:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 330.40000000000003
+        - -5.5
+        - 270.0
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  straight_heater_metal_simple:
+    bbox:
+    - - -16.0
+      - -5.5
+    - - 336.0
+      - -5.5
+    - - 336.0
+      - 5.5
+    - - -16.0
+      - 5.5
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      cross_section_heater:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: heater_metal
+      cross_section_waveguide_heater:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: strip_heater_metal
+      heater_taper_length:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 5
+      length:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 320
+      via_stack:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: via_stack_heater_mtop
+    pins:
+      e1:
+        alias: null
+        doc: null
+        width: 2.5
+        xsection: 'strip'
+        xya:
+        - 0.0
+        - 0.0
+        - 180.0
+      e2:
+        alias: null
+        doc: null
+        width: 2.5
+        xsection: 'strip'
+        xya:
+        - 320.0
+        - 0.0
+        - 0.0
+      l_e1:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - -16.0
+        - 0.0
+        - 180.0
+      l_e2:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - -10.5
+        - 5.5
+        - 90.0
+      l_e3:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - -5.0
+        - 0.0
+        - 0.0
+      l_e4:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - -10.5
+        - -5.5
+        - 270.0
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 0.0
+        - 0.0
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 320.0
+        - 0.0
+        - 0.0
+      r_e1:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 325.0
+        - 0.0
+        - 180.0
+      r_e2:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 330.5
+        - 5.5
+        - 90.0
+      r_e3:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 336.0
+        - 0.0
+        - 0.0
+      r_e4:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 330.5
+        - -5.5
+        - 270.0
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  straight_heater_metal_undercut:
+    bbox:
+    - - -15.9
+      - -8.75
+    - - 335.90000000000003
+      - -8.75
+    - - 335.90000000000003
+      - 8.75
+    - - -15.9
+      - 8.75
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      cross_section:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: strip
+      cross_section_heater:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: heater_metal
+      cross_section_heater_undercut:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: strip_heater_metal_undercut
+      cross_section_waveguide_heater:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: strip_heater_metal
+      heater_taper_length:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 5
+      length:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 320
+      length_straight:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.1
+      length_straight_input:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 15
+      length_undercut:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 30
+      length_undercut_spacing:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 6
+      via_stack:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: via_stack_heater_mtop
+      with_undercut:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: true
+    pins:
+      l_e1:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - -15.9
+        - 0.0
+        - 180.0
+      l_e2:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - -10.4
+        - 5.5
+        - 90.0
+      l_e3:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - -4.9
+        - 0.0
+        - 0.0
+      l_e4:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - -10.4
+        - -5.5
+        - 270.0
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 0.0
+        - 0.0
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 320.0
+        - 0.0
+        - 0.0
+      r_e1:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 324.90000000000003
+        - 0.0
+        - 180.0
+      r_e2:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 330.40000000000003
+        - 5.5
+        - 90.0
+      r_e3:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 335.90000000000003
+        - 0.0
+        - 0.0
+      r_e4:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 330.40000000000003
+        - -5.5
+        - 270.0
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  taper:
+    bbox:
+    - - 0.0
+      - -0.25
+    - - 10.0
+      - -0.25
+    - - 10.0
+      - 0.25
+    - - 0.0
+      - 0.25
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      cross_section:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: strip
+      length:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 10
+      width1:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.5
+      with_bbox:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: true
+      with_two_ports:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: true
+    pins:
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 0.0
+        - 0.0
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: 'strip'
+        xya:
+        - 10.0
+        - 0.0
+        - 0.0
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  via1:
+    bbox:
+    - - -0.35000000000000003
+      - -0.35000000000000003
+    - - 0.35000000000000003
+      - -0.35000000000000003
+    - - 0.35000000000000003
+      - 0.35000000000000003
+    - - -0.35000000000000003
+      - 0.35000000000000003
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      bbox_offset:
+        doc: null
+        max: 0
+        min: 0
+        type: int
+        unit: null
+        value: 0
+      enclosure:
+        doc: null
+        max: 0
+        min: 0
+        type: int
+        unit: null
+        value: 1
+      layer:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: VIA1
+      pitch:
+        doc: null
+        max: 0
+        min: 0
+        type: int
+        unit: null
+        value: 2
+    pins: {}
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  via2:
+    bbox:
+    - - -0.35000000000000003
+      - -0.35000000000000003
+    - - 0.35000000000000003
+      - -0.35000000000000003
+    - - 0.35000000000000003
+      - 0.35000000000000003
+    - - -0.35000000000000003
+      - 0.35000000000000003
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      bbox_offset:
+        doc: null
+        max: 0
+        min: 0
+        type: int
+        unit: null
+        value: 0
+      enclosure:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 1
+      layer:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: VIA2
+      pitch:
+        doc: null
+        max: 0
+        min: 0
+        type: int
+        unit: null
+        value: 2
+    pins: {}
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  via_stack_heater_mtop:
+    bbox:
+    - - -5.5
+      - -5.5
+    - - 5.5
+      - -5.5
+    - - 5.5
+      - 5.5
+    - - -5.5
+      - 5.5
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      correct_size:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: false
+      slot_horizontal:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: false
+      slot_vertical:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: false
+    pins:
+      e1:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - -5.5
+        - 0.0
+        - 180.0
+      e2:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 0.0
+        - 5.5
+        - 90.0
+      e3:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 5.5
+        - 0.0
+        - 0.0
+      e4:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 0.0
+        - -5.5
+        - 270.0
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  via_stack_heater_mtop_mini:
+    bbox:
+    - - -2.0
+      - -2.0
+    - - 2.0
+      - -2.0
+    - - 2.0
+      - 2.0
+    - - -2.0
+      - 2.0
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      correct_size:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: false
+      slot_horizontal:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: false
+      slot_vertical:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: false
+    pins:
+      e1:
+        alias: null
+        doc: null
+        width: 4.0
+        xsection: 'strip'
+        xya:
+        - -2.0
+        - 0.0
+        - 180.0
+      e2:
+        alias: null
+        doc: null
+        width: 4.0
+        xsection: 'strip'
+        xya:
+        - 0.0
+        - 2.0
+        - 90.0
+      e3:
+        alias: null
+        doc: null
+        width: 4.0
+        xsection: 'strip'
+        xya:
+        - 2.0
+        - 0.0
+        - 0.0
+      e4:
+        alias: null
+        doc: null
+        width: 4.0
+        xsection: 'strip'
+        xya:
+        - 0.0
+        - -2.0
+        - 270.0
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  via_stack_slab_m3:
+    bbox:
+    - - -5.5
+      - -5.5
+    - - 5.5
+      - -5.5
+    - - 5.5
+      - 5.5
+    - - -5.5
+      - 5.5
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      correct_size:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: false
+      slot_horizontal:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: false
+      slot_vertical:
+        doc: null
+        max: 0
+        min: 0
+        type: bool
+        unit: null
+        value: false
+    pins:
+      e1:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - -5.5
+        - 0.0
+        - 180.0
+      e2:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 0.0
+        - 5.5
+        - 90.0
+      e3:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 5.5
+        - 0.0
+        - 0.0
+      e4:
+        alias: null
+        doc: null
+        width: 11.0
+        xsection: 'strip'
+        xya:
+        - 0.0
+        - -5.5
+        - 270.0
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  viac:
+    bbox:
+    - - -0.35000000000000003
+      - -0.35000000000000003
+    - - 0.35000000000000003
+      - -0.35000000000000003
+    - - 0.35000000000000003
+      - 0.35000000000000003
+    - - -0.35000000000000003
+      - 0.35000000000000003
+    doc: Canvas where you add polygons, instances and ports.
+    parameters:
+      bbox_offset:
+        doc: null
+        max: 0
+        min: 0
+        type: int
+        unit: null
+        value: 0
+      enclosure:
+        doc: null
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 1
+      layer:
+        doc: null
+        max: 0
+        min: 0
+        type: str
+        unit: null
+        value: VIAC
+      pitch:
+        doc: null
+        max: 0
+        min: 0
+        type: int
+        unit: null
+        value: 2
+    pins: {}
+    settings:
+      Properties:
+        doc: ''
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+      info:
+        doc: dictionary that includes derived properties, simulation_settings, settings
+        max: 0
+        min: 0
+        type: float
+        unit: null
+        value: 0.0
+  m_mmi_I2_O2:
+    bbox:
+    - - 0.0
+      - 0.0
+    - - 56.0
+      - 0.0
+    - - 56.0
+      - 10.0
+    - - 0.0
+      - 10.0
+    doc: Auto-extracted block for m_mmi_I2_O2_WNone_WT1_LT1_d965ea1e_5
+    parameters:
+      cross_section:
+        type: str
+        value: strip
+        doc: null
+        min: 0
+        max: 0
+        unit: null
+    pins:
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 2.5
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 7.5
+        - 180.0
+      o4:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 56.0
+        - 2.5
+        - 0.0
+      o3:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 56.0
+        - 7.5
+        - 0.0
+    settings:
+      Properties:
+        type: float
+        value: 0.0
+        doc: ''
+        min: 0
+        max: 0
+        unit: null
+  m_mmi_I4_O4:
+    bbox:
+    - - 0.0
+      - 0.0
+    - - 92.0
+      - 0.0
+    - - 92.0
+      - 20.0
+    - - 0.0
+      - 20.0
+    doc: Auto-extracted block for m_mmi_I4_O4_WNone_WT1_LT1_a5379678_6
+    parameters:
+      cross_section:
+        type: str
+        value: strip
+        doc: null
+        min: 0
+        max: 0
+        unit: null
+    pins:
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 2.5
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 7.5
+        - 180.0
+      o3:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 12.5
+        - 180.0
+      o4:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 17.5
+        - 180.0
+      o8:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 92.0
+        - 2.5
+        - 0.0
+      o7:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 92.0
+        - 7.5
+        - 0.0
+      o6:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 92.0
+        - 12.5
+        - 0.0
+      o5:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 92.0
+        - 17.5
+        - 0.0
+    settings:
+      Properties:
+        type: float
+        value: 0.0
+        doc: ''
+        min: 0
+        max: 0
+        unit: null
+  m_mmi_I6_O6:
+    bbox:
+    - - 0.0
+      - 0.0
+    - - 128.0
+      - 0.0
+    - - 128.0
+      - 30.0
+    - - 0.0
+      - 30.0
+    doc: Auto-extracted block for m_mmi_I6_O6_WNone_WT1_LT1_cc93867a_4
+    parameters:
+      cross_section:
+        type: str
+        value: strip
+        doc: null
+        min: 0
+        max: 0
+        unit: null
+    pins:
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 2.5
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 7.5
+        - 180.0
+      o3:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 12.5
+        - 180.0
+      o4:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 17.5
+        - 180.0
+      o5:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 22.5
+        - 180.0
+      o6:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 27.5
+        - 180.0
+      o12:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 128.0
+        - 2.5
+        - 0.0
+      o11:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 128.0
+        - 7.5
+        - 0.0
+      o10:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 128.0
+        - 12.5
+        - 0.0
+      o9:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 128.0
+        - 17.5
+        - 0.0
+      o8:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 128.0
+        - 22.5
+        - 0.0
+      o7:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 128.0
+        - 27.5
+        - 0.0
+    settings:
+      Properties:
+        type: float
+        value: 0.0
+        doc: ''
+        min: 0
+        max: 0
+        unit: null
+  m_mmi_I10_O10:
+    bbox:
+    - - 0.0
+      - 0.0
+    - - 200.0
+      - 0.0
+    - - 200.0
+      - 50.0
+    - - 0.0
+      - 50.0
+    doc: Auto-extracted block for m_mmi_I10_O10_WNone_WT1_L_e2477a99_4
+    parameters:
+      cross_section:
+        type: str
+        value: strip
+        doc: null
+        min: 0
+        max: 0
+        unit: null
+    pins:
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 2.5
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 7.5
+        - 180.0
+      o3:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 12.5
+        - 180.0
+      o4:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 17.5
+        - 180.0
+      o5:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 22.5
+        - 180.0
+      o6:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 27.5
+        - 180.0
+      o7:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 32.5
+        - 180.0
+      o8:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 37.5
+        - 180.0
+      o9:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 42.5
+        - 180.0
+      o10:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 47.5
+        - 180.0
+      o20:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 200.0
+        - 2.5
+        - 0.0
+      o19:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 200.0
+        - 7.5
+        - 0.0
+      o18:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 200.0
+        - 12.5
+        - 0.0
+      o17:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 200.0
+        - 17.5
+        - 0.0
+      o16:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 200.0
+        - 22.5
+        - 0.0
+      o15:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 200.0
+        - 27.5
+        - 0.0
+      o14:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 200.0
+        - 32.5
+        - 0.0
+      o13:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 200.0
+        - 37.5
+        - 0.0
+      o12:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 200.0
+        - 42.5
+        - 0.0
+      o11:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 200.0
+        - 47.5
+        - 0.0
+    settings:
+      Properties:
+        type: float
+        value: 0.0
+        doc: ''
+        min: 0
+        max: 0
+        unit: null
+  m_mmi_I8_O8:
+    bbox:
+    - - 0.0
+      - 0.0
+    - - 164.0
+      - 0.0
+    - - 164.0
+      - 40.0
+    - - 0.0
+      - 40.0
+    doc: Auto-extracted block for m_mmi_I8_O8_WNone_WT1_LT1_8e242222_7
+    parameters:
+      cross_section:
+        type: str
+        value: strip
+        doc: null
+        min: 0
+        max: 0
+        unit: null
+    pins:
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 2.5
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 7.5
+        - 180.0
+      o3:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 12.5
+        - 180.0
+      o4:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 17.5
+        - 180.0
+      o5:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 22.5
+        - 180.0
+      o6:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 27.5
+        - 180.0
+      o7:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 32.5
+        - 180.0
+      o8:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 37.5
+        - 180.0
+      o16:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 164.0
+        - 2.5
+        - 0.0
+      o15:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 164.0
+        - 7.5
+        - 0.0
+      o14:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 164.0
+        - 12.5
+        - 0.0
+      o13:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 164.0
+        - 17.5
+        - 0.0
+      o12:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 164.0
+        - 22.5
+        - 0.0
+      o11:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 164.0
+        - 27.5
+        - 0.0
+      o10:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 164.0
+        - 32.5
+        - 0.0
+      o9:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 164.0
+        - 37.5
+        - 0.0
+    settings:
+      Properties:
+        type: float
+        value: 0.0
+        doc: ''
+        min: 0
+        max: 0
+        unit: null
+  m_mmi_I14_O14:
+    bbox:
+    - - 0.0
+      - 0.0
+    - - 272.0
+      - 0.0
+    - - 272.0
+      - 70.0
+    - - 0.0
+      - 70.0
+    doc: Auto-extracted block for m_mmi_I14_O14_WNone_WT1_L_218c8a66_8
+    parameters:
+      cross_section:
+        type: str
+        value: strip
+        doc: null
+        min: 0
+        max: 0
+        unit: null
+    pins:
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 2.5
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 7.5
+        - 180.0
+      o3:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 12.5
+        - 180.0
+      o4:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 17.5
+        - 180.0
+      o5:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 22.5
+        - 180.0
+      o6:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 27.5
+        - 180.0
+      o7:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 32.5
+        - 180.0
+      o8:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 37.5
+        - 180.0
+      o9:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 42.5
+        - 180.0
+      o10:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 47.5
+        - 180.0
+      o11:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 52.5
+        - 180.0
+      o12:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 57.5
+        - 180.0
+      o13:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 62.5
+        - 180.0
+      o14:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 67.5
+        - 180.0
+      o28:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 272.0
+        - 2.5
+        - 0.0
+      o27:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 272.0
+        - 7.5
+        - 0.0
+      o26:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 272.0
+        - 12.5
+        - 0.0
+      o25:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 272.0
+        - 17.5
+        - 0.0
+      o24:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 272.0
+        - 22.5
+        - 0.0
+      o23:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 272.0
+        - 27.5
+        - 0.0
+      o22:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 272.0
+        - 32.5
+        - 0.0
+      o21:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 272.0
+        - 37.5
+        - 0.0
+      o20:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 272.0
+        - 42.5
+        - 0.0
+      o19:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 272.0
+        - 47.5
+        - 0.0
+      o18:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 272.0
+        - 52.5
+        - 0.0
+      o17:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 272.0
+        - 57.5
+        - 0.0
+      o16:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 272.0
+        - 62.5
+        - 0.0
+      o15:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 272.0
+        - 67.5
+        - 0.0
+    settings:
+      Properties:
+        type: float
+        value: 0.0
+        doc: ''
+        min: 0
+        max: 0
+        unit: null
+  m_mmi_I16_O16:
+    bbox:
+    - - 0.0
+      - 0.0
+    - - 308.0
+      - 0.0
+    - - 308.0
+      - 80.0
+    - - 0.0
+      - 80.0
+    doc: Auto-extracted block for m_mmi_I16_O16_WNone_WT1_L_defbb103_9
+    parameters:
+      cross_section:
+        type: str
+        value: strip
+        doc: null
+        min: 0
+        max: 0
+        unit: null
+    pins:
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 2.5
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 7.5
+        - 180.0
+      o3:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 12.5
+        - 180.0
+      o4:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 17.5
+        - 180.0
+      o5:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 22.5
+        - 180.0
+      o6:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 27.5
+        - 180.0
+      o7:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 32.5
+        - 180.0
+      o8:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 37.5
+        - 180.0
+      o9:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 42.5
+        - 180.0
+      o10:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 47.5
+        - 180.0
+      o11:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 52.5
+        - 180.0
+      o12:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 57.5
+        - 180.0
+      o13:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 62.5
+        - 180.0
+      o14:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 67.5
+        - 180.0
+      o15:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 72.5
+        - 180.0
+      o16:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 77.5
+        - 180.0
+      o32:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 308.0
+        - 2.5
+        - 0.0
+      o31:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 308.0
+        - 7.5
+        - 0.0
+      o30:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 308.0
+        - 12.5
+        - 0.0
+      o29:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 308.0
+        - 17.5
+        - 0.0
+      o28:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 308.0
+        - 22.5
+        - 0.0
+      o27:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 308.0
+        - 27.5
+        - 0.0
+      o26:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 308.0
+        - 32.5
+        - 0.0
+      o25:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 308.0
+        - 37.5
+        - 0.0
+      o24:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 308.0
+        - 42.5
+        - 0.0
+      o23:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 308.0
+        - 47.5
+        - 0.0
+      o22:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 308.0
+        - 52.5
+        - 0.0
+      o21:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 308.0
+        - 57.5
+        - 0.0
+      o20:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 308.0
+        - 62.5
+        - 0.0
+      o19:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 308.0
+        - 67.5
+        - 0.0
+      o18:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 308.0
+        - 72.5
+        - 0.0
+      o17:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 308.0
+        - 77.5
+        - 0.0
+    settings:
+      Properties:
+        type: float
+        value: 0.0
+        doc: ''
+        min: 0
+        max: 0
+        unit: null
+  m_straight_heater_metal:
+    bbox:
+    - - 0.0
+      - 0.0
+    - - 231.8
+      - 0.0
+    - - 231.8
+      - 11.0
+    - - 0.0
+      - 11.0
+    doc: Auto-extracted block for m_straight_heater_metal_u_9c931429_3
+    parameters:
+      cross_section:
+        type: str
+        value: strip
+        doc: null
+        min: 0
+        max: 0
+        unit: null
+    pins:
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 15.9
+        - 5.5
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 215.9
+        - 5.5
+        - 0.0
+    settings:
+      Properties:
+        type: float
+        value: 0.0
+        doc: ''
+        min: 0
+        max: 0
+        unit: null
+  m_straight:
+    bbox:
+    - - 0.0
+      - 0.0
+    - - 200.0
+      - 0.0
+    - - 200.0
+      - 0.5
+    - - 0.0
+      - 0.5
+    doc: Auto-extracted block for m_straight_heater_metal_u_9c931429_3
+    parameters:
+      cross_section:
+        type: str
+        value: strip
+        doc: null
+        min: 0
+        max: 0
+        unit: null
+    pins:
+      o1:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 0.0
+        - 0.25
+        - 180.0
+      o2:
+        alias: null
+        doc: null
+        width: 0.5
+        xsection: strip
+        xya:
+        - 200.0
+        - 0.25
+        - 0.0
+    settings:
+      Properties:
+        type: float
+        value: 0.0
+        doc: ''
+        min: 0
+        max: 0
+        unit: null
+header:
+  description: fab1
+xsections:
+  gs:
+    width: 120.0
+  gsg:
+    width: 140.0
+  heater_metal:
+    width: 2.5
+  l_wg_doped_with_trenches:
+    width: 0.5
+  l_with_trenches:
+    width: 0.5
+  metal1:
+    width: 10.0
+  metal2:
+    width: 10.0
+  metal3:
+    width: 10.0
+  metal_routing:
+    width: 10.0
+  nitride:
+    width: 1.0
+  npp:
+    width: 0.5
+  pin:
+    width: 0.5
+  pn:
+    width: 0.5
+  pn_ge_detector_si_contacts:
+    width: 6.0
+  pn_with_trenches:
+    width: 0.5
+  pn_with_trenches_asymmetric:
+    width: 0.5
+  rib:
+    width: 0.5
+  rib2:
+    width: 0.5
+  rib_bbox:
+    width: 0.5
+  rib_heater_doped:
+    width: 0.5
+  rib_heater_doped_via_stack:
+    width: 0.5
+  rib_with_trenches:
+    width: 0.5
+  slot:
+    width: 0.5
+  strip:
+    width: 0.5
+  strip_heater_doped:
+    width: 0.5
+  strip_heater_metal:
+    width: 0.5
+  strip_heater_metal_undercut:
+    width: 0.5
+  strip_nitride_tip:
+    width: 1.0
+  strip_no_ports:
+    width: 0.5
+  strip_rib_tip:
+    width: 0.5
+
