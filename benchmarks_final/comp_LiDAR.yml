@@ -56,7 +56,6 @@ dr:
     m_mmi_I16_O16: 1.2
     m_mmi_I18_O18: 1.2
     straight: 0.0
-    m_straight: 0.03
 
 show_temp: False
 

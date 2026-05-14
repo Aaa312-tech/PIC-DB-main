@@ -1,597 +1,413 @@
 name: clements_16x16_c
 bbox: [[0, 0], [6000, 2000]]
 instances:
-  gc_in_0:
-    component: grating_coupler_elliptical_lumerical
-  yb_0_0:
-    component: mmi1x2
-  yb_1_0:
-    component: mmi1x2
-  yb_1_1:
-    component: mmi1x2
-  yb_2_0:
-    component: mmi1x2
-  yb_2_1:
-    component: mmi1x2
-  yb_2_2:
-    component: mmi1x2
-  yb_2_3:
-    component: mmi1x2
-  yb_3_0:
-    component: mmi1x2
-  yb_3_1:
-    component: mmi1x2
-  yb_3_2:
-    component: mmi1x2
-  yb_3_3:
-    component: mmi1x2
-  yb_3_4:
-    component: mmi1x2
-  yb_3_5:
-    component: mmi1x2
-  yb_3_6:
-    component: mmi1x2
-  yb_3_7:
-    component: mmi1x2
-  mzi_0:
-    component: mzi
-  mzi_1:
-    component: mzi
-  mzi_2:
-    component: mzi
-  mzi_3:
-    component: mzi
-  mzi_4:
-    component: mzi
-  mzi_5:
-    component: mzi
-  mzi_6:
-    component: mzi
-  mzi_7:
-    component: mzi
-  mzi_8:
-    component: mzi
-  mzi_9:
-    component: mzi
-  mzi_10:
-    component: mzi
-  mzi_11:
-    component: mzi
-  mzi_12:
-    component: mzi
-  mzi_13:
-    component: mzi
-  mzi_14:
-    component: mzi
-  mzi_15:
-    component: mzi
-  gc_out_0:
-    component: grating_coupler_elliptical_lumerical
-  gc_out_1:
-    component: grating_coupler_elliptical_lumerical
-  gc_out_2:
-    component: grating_coupler_elliptical_lumerical
-  gc_out_3:
-    component: grating_coupler_elliptical_lumerical
-  gc_out_4:
-    component: grating_coupler_elliptical_lumerical
-  gc_out_5:
-    component: grating_coupler_elliptical_lumerical
-  gc_out_6:
-    component: grating_coupler_elliptical_lumerical
-  gc_out_7:
-    component: grating_coupler_elliptical_lumerical
-  gc_out_8:
-    component: grating_coupler_elliptical_lumerical
-  gc_out_9:
-    component: grating_coupler_elliptical_lumerical
-  gc_out_10:
-    component: grating_coupler_elliptical_lumerical
-  gc_out_11:
-    component: grating_coupler_elliptical_lumerical
-  gc_out_12:
-    component: grating_coupler_elliptical_lumerical
-  gc_out_13:
-    component: grating_coupler_elliptical_lumerical
-  gc_out_14:
-    component: grating_coupler_elliptical_lumerical
-  gc_out_15:
-    component: grating_coupler_elliptical_lumerical
-  p1:
-    component: mzi2x2_2x2_phase_shifter
-  p2:
-    component: mzi2x2_2x2_phase_shifter
-  p3:
-    component: mzi2x2_2x2_phase_shifter
-  p4:
-    component: mzi2x2_2x2_phase_shifter
-  p5:
-    component: mzi2x2_2x2_phase_shifter
-  p6:
-    component: mzi2x2_2x2_phase_shifter
-  p7:
-    component: mzi2x2_2x2_phase_shifter
-  p8:
-    component: mzi2x2_2x2_phase_shifter
-  p9:
-    component: mzi2x2_2x2_phase_shifter
-  p10:
-    component: mzi2x2_2x2_phase_shifter
-  p11:
-    component: mzi2x2_2x2_phase_shifter
-  p12:
-    component: mzi2x2_2x2_phase_shifter
-  p13:
-    component: mzi2x2_2x2_phase_shifter
-  p14:
-    component: mzi2x2_2x2_phase_shifter
-  p15:
-    component: mzi2x2_2x2_phase_shifter
-  p16:
-    component: mzi2x2_2x2_phase_shifter
-  p17:
-    component: mzi2x2_2x2_phase_shifter
-  p18:
-    component: mzi2x2_2x2_phase_shifter
-  p19:
-    component: mzi2x2_2x2_phase_shifter
-  p20:
-    component: mzi2x2_2x2_phase_shifter
-  p21:
-    component: mzi2x2_2x2_phase_shifter
-  p22:
-    component: mzi2x2_2x2_phase_shifter
-  p23:
-    component: mzi2x2_2x2_phase_shifter
-  p24:
-    component: mzi2x2_2x2_phase_shifter
-  p25:
-    component: mzi2x2_2x2_phase_shifter
-  p26:
-    component: mzi2x2_2x2_phase_shifter
-  p27:
-    component: mzi2x2_2x2_phase_shifter
-  p28:
-    component: mzi2x2_2x2_phase_shifter
-  p29:
-    component: mzi2x2_2x2_phase_shifter
-  p30:
-    component: mzi2x2_2x2_phase_shifter
-  p31:
-    component: mzi2x2_2x2_phase_shifter
-  p32:
-    component: mzi2x2_2x2_phase_shifter
-  p33:
-    component: mzi2x2_2x2_phase_shifter
-  p34:
-    component: mzi2x2_2x2_phase_shifter
-  p35:
-    component: mzi2x2_2x2_phase_shifter
-  p36:
-    component: mzi2x2_2x2_phase_shifter
-  p37:
-    component: mzi2x2_2x2_phase_shifter
-  p38:
-    component: mzi2x2_2x2_phase_shifter
-  p39:
-    component: mzi2x2_2x2_phase_shifter
-  p40:
-    component: mzi2x2_2x2_phase_shifter
-  p41:
-    component: mzi2x2_2x2_phase_shifter
-  p42:
-    component: mzi2x2_2x2_phase_shifter
-  p43:
-    component: mzi2x2_2x2_phase_shifter
-  p44:
-    component: mzi2x2_2x2_phase_shifter
-  p45:
-    component: mzi2x2_2x2_phase_shifter
-  p46:
-    component: mzi2x2_2x2_phase_shifter
-  p47:
-    component: mzi2x2_2x2_phase_shifter
-  p48:
-    component: mzi2x2_2x2_phase_shifter
-  p49:
-    component: mzi2x2_2x2_phase_shifter
-  p50:
-    component: mzi2x2_2x2_phase_shifter
-  p51:
-    component: mzi2x2_2x2_phase_shifter
-  p52:
-    component: mzi2x2_2x2_phase_shifter
-  p53:
-    component: mzi2x2_2x2_phase_shifter
-  p54:
-    component: mzi2x2_2x2_phase_shifter
-  p55:
-    component: mzi2x2_2x2_phase_shifter
-  p56:
-    component: mzi2x2_2x2_phase_shifter
-  p57:
-    component: mzi2x2_2x2_phase_shifter
-  p58:
-    component: mzi2x2_2x2_phase_shifter
-  p59:
-    component: mzi2x2_2x2_phase_shifter
-  p60:
-    component: mzi2x2_2x2_phase_shifter
-  p61:
-    component: mzi2x2_2x2_phase_shifter
-  p62:
-    component: mzi2x2_2x2_phase_shifter
-  p63:
-    component: mzi2x2_2x2_phase_shifter
-  p64:
-    component: mzi2x2_2x2_phase_shifter
-  p65:
-    component: mzi2x2_2x2_phase_shifter
-  p66:
-    component: mzi2x2_2x2_phase_shifter
-  p67:
-    component: mzi2x2_2x2_phase_shifter
-  p68:
-    component: mzi2x2_2x2_phase_shifter
-  p69:
-    component: mzi2x2_2x2_phase_shifter
-  p70:
-    component: mzi2x2_2x2_phase_shifter
-  p71:
-    component: mzi2x2_2x2_phase_shifter
-  p72:
-    component: mzi2x2_2x2_phase_shifter
-  p73:
-    component: mzi2x2_2x2_phase_shifter
-  p74:
-    component: mzi2x2_2x2_phase_shifter
-  p75:
-    component: mzi2x2_2x2_phase_shifter
-  p76:
-    component: mzi2x2_2x2_phase_shifter
-  p77:
-    component: mzi2x2_2x2_phase_shifter
-  p78:
-    component: mzi2x2_2x2_phase_shifter
-  p79:
-    component: mzi2x2_2x2_phase_shifter
-  p80:
-    component: mzi2x2_2x2_phase_shifter
-  p81:
-    component: mzi2x2_2x2_phase_shifter
-  p82:
-    component: mzi2x2_2x2_phase_shifter
-  p83:
-    component: mzi2x2_2x2_phase_shifter
-  p84:
-    component: mzi2x2_2x2_phase_shifter
-  p85:
-    component: mzi2x2_2x2_phase_shifter
-  p86:
-    component: mzi2x2_2x2_phase_shifter
-  p87:
-    component: mzi2x2_2x2_phase_shifter
-  p88:
-    component: mzi2x2_2x2_phase_shifter
-  p89:
-    component: mzi2x2_2x2_phase_shifter
-  p90:
-    component: mzi2x2_2x2_phase_shifter
-  p91:
-    component: mzi2x2_2x2_phase_shifter
-  p92:
-    component: mzi2x2_2x2_phase_shifter
-  p93:
-    component: mzi2x2_2x2_phase_shifter
-  p94:
-    component: mzi2x2_2x2_phase_shifter
-  p95:
-    component: mzi2x2_2x2_phase_shifter
-  p96:
-    component: mzi2x2_2x2_phase_shifter
-  p97:
-    component: mzi2x2_2x2_phase_shifter
-  p98:
-    component: mzi2x2_2x2_phase_shifter
-  p99:
-    component: mzi2x2_2x2_phase_shifter
-  p100:
-    component: mzi2x2_2x2_phase_shifter
-  p101:
-    component: mzi2x2_2x2_phase_shifter
-  p102:
-    component: mzi2x2_2x2_phase_shifter
-  p103:
-    component: mzi2x2_2x2_phase_shifter
-  p104:
-    component: mzi2x2_2x2_phase_shifter
-  p105:
-    component: mzi2x2_2x2_phase_shifter
-  p106:
-    component: mzi2x2_2x2_phase_shifter
-  p107:
-    component: mzi2x2_2x2_phase_shifter
-  p108:
-    component: mzi2x2_2x2_phase_shifter
-  p109:
-    component: mzi2x2_2x2_phase_shifter
-  p110:
-    component: mzi2x2_2x2_phase_shifter
-  p111:
-    component: mzi2x2_2x2_phase_shifter
-  p112:
-    component: mzi2x2_2x2_phase_shifter
-  p113:
-    component: mzi2x2_2x2_phase_shifter
-  p114:
-    component: mzi2x2_2x2_phase_shifter
-  p115:
-    component: mzi2x2_2x2_phase_shifter
-  p116:
-    component: mzi2x2_2x2_phase_shifter
-  p117:
-    component: mzi2x2_2x2_phase_shifter
-  p118:
-    component: mzi2x2_2x2_phase_shifter
-  p119:
-    component: mzi2x2_2x2_phase_shifter
-  p120:
-    component: mzi2x2_2x2_phase_shifter
-  p121:
-    component: mzi2x2_2x2_phase_shifter
-  p122:
-    component: mzi2x2_2x2_phase_shifter
-  p123:
-    component: mzi2x2_2x2_phase_shifter
-  p124:
-    component: mzi2x2_2x2_phase_shifter
-  p125:
-    component: mzi2x2_2x2_phase_shifter
-  p126:
-    component: mzi2x2_2x2_phase_shifter
-  p127:
-    component: mzi2x2_2x2_phase_shifter
-  p128:
-    component: mzi2x2_2x2_phase_shifter
-  p129:
-    component: mzi2x2_2x2_phase_shifter
-  p130:
-    component: mzi2x2_2x2_phase_shifter
-  p131:
-    component: mzi2x2_2x2_phase_shifter
-  p132:
-    component: mzi2x2_2x2_phase_shifter
-  p133:
-    component: mzi2x2_2x2_phase_shifter
-  p134:
-    component: mzi2x2_2x2_phase_shifter
-  p135:
-    component: mzi2x2_2x2_phase_shifter
-  p136:
-    component: mzi2x2_2x2_phase_shifter
+  gc_in_0: {component: grating_coupler_elliptical_lumerical}
+  yb_0_0: {component: mmi1x2}
+  yb_1_0: {component: mmi1x2}
+  yb_1_1: {component: mmi1x2}
+  yb_2_0: {component: mmi1x2}
+  yb_2_1: {component: mmi1x2}
+  yb_2_2: {component: mmi1x2}
+  yb_2_3: {component: mmi1x2}
+  yb_3_0: {component: mmi1x2}
+  yb_3_1: {component: mmi1x2}
+  yb_3_2: {component: mmi1x2}
+  yb_3_3: {component: mmi1x2}
+  yb_3_4: {component: mmi1x2}
+  yb_3_5: {component: mmi1x2}
+  yb_3_6: {component: mmi1x2}
+  yb_3_7: {component: mmi1x2}
+  mzi_0: {component: mzi}
+  mzi_1: {component: mzi}
+  mzi_2: {component: mzi}
+  mzi_3: {component: mzi}
+  mzi_4: {component: mzi}
+  mzi_5: {component: mzi}
+  mzi_6: {component: mzi}
+  mzi_7: {component: mzi}
+  mzi_8: {component: mzi}
+  mzi_9: {component: mzi}
+  mzi_10: {component: mzi}
+  mzi_11: {component: mzi}
+  mzi_12: {component: mzi}
+  mzi_13: {component: mzi}
+  mzi_14: {component: mzi}
+  mzi_15: {component: mzi}
+  gc_out_0: {component: grating_coupler_elliptical_lumerical}
+  gc_out_1: {component: grating_coupler_elliptical_lumerical}
+  gc_out_2: {component: grating_coupler_elliptical_lumerical}
+  gc_out_3: {component: grating_coupler_elliptical_lumerical}
+  gc_out_4: {component: grating_coupler_elliptical_lumerical}
+  gc_out_5: {component: grating_coupler_elliptical_lumerical}
+  gc_out_6: {component: grating_coupler_elliptical_lumerical}
+  gc_out_7: {component: grating_coupler_elliptical_lumerical}
+  gc_out_8: {component: grating_coupler_elliptical_lumerical}
+  gc_out_9: {component: grating_coupler_elliptical_lumerical}
+  gc_out_10: {component: grating_coupler_elliptical_lumerical}
+  gc_out_11: {component: grating_coupler_elliptical_lumerical}
+  gc_out_12: {component: grating_coupler_elliptical_lumerical}
+  gc_out_13: {component: grating_coupler_elliptical_lumerical}
+  gc_out_14: {component: grating_coupler_elliptical_lumerical}
+  gc_out_15: {component: grating_coupler_elliptical_lumerical}
+  p1: {component: mzi2x2_2x2_phase_shifter}
+  p2: {component: mzi2x2_2x2_phase_shifter}
+  p3: {component: mzi2x2_2x2_phase_shifter}
+  p4: {component: mzi2x2_2x2_phase_shifter}
+  p5: {component: mzi2x2_2x2_phase_shifter}
+  p6: {component: mzi2x2_2x2_phase_shifter}
+  p7: {component: mzi2x2_2x2_phase_shifter}
+  p8: {component: mzi2x2_2x2_phase_shifter}
+  p9: {component: mzi2x2_2x2_phase_shifter}
+  p10: {component: mzi2x2_2x2_phase_shifter}
+  p11: {component: mzi2x2_2x2_phase_shifter}
+  p12: {component: mzi2x2_2x2_phase_shifter}
+  p13: {component: mzi2x2_2x2_phase_shifter}
+  p14: {component: mzi2x2_2x2_phase_shifter}
+  p15: {component: mzi2x2_2x2_phase_shifter}
+  p16: {component: mzi2x2_2x2_phase_shifter}
+  p17: {component: mzi2x2_2x2_phase_shifter}
+  p18: {component: mzi2x2_2x2_phase_shifter}
+  p19: {component: mzi2x2_2x2_phase_shifter}
+  p20: {component: mzi2x2_2x2_phase_shifter}
+  p21: {component: mzi2x2_2x2_phase_shifter}
+  p22: {component: mzi2x2_2x2_phase_shifter}
+  p23: {component: mzi2x2_2x2_phase_shifter}
+  p24: {component: mzi2x2_2x2_phase_shifter}
+  p25: {component: mzi2x2_2x2_phase_shifter}
+  p26: {component: mzi2x2_2x2_phase_shifter}
+  p27: {component: mzi2x2_2x2_phase_shifter}
+  p28: {component: mzi2x2_2x2_phase_shifter}
+  p29: {component: mzi2x2_2x2_phase_shifter}
+  p30: {component: mzi2x2_2x2_phase_shifter}
+  p31: {component: mzi2x2_2x2_phase_shifter}
+  p32: {component: mzi2x2_2x2_phase_shifter}
+  p33: {component: mzi2x2_2x2_phase_shifter}
+  p34: {component: mzi2x2_2x2_phase_shifter}
+  p35: {component: mzi2x2_2x2_phase_shifter}
+  p36: {component: mzi2x2_2x2_phase_shifter}
+  p37: {component: mzi2x2_2x2_phase_shifter}
+  p38: {component: mzi2x2_2x2_phase_shifter}
+  p39: {component: mzi2x2_2x2_phase_shifter}
+  p40: {component: mzi2x2_2x2_phase_shifter}
+  p41: {component: mzi2x2_2x2_phase_shifter}
+  p42: {component: mzi2x2_2x2_phase_shifter}
+  p43: {component: mzi2x2_2x2_phase_shifter}
+  p44: {component: mzi2x2_2x2_phase_shifter}
+  p45: {component: mzi2x2_2x2_phase_shifter}
+  p46: {component: mzi2x2_2x2_phase_shifter}
+  p47: {component: mzi2x2_2x2_phase_shifter}
+  p48: {component: mzi2x2_2x2_phase_shifter}
+  p49: {component: mzi2x2_2x2_phase_shifter}
+  p50: {component: mzi2x2_2x2_phase_shifter}
+  p51: {component: mzi2x2_2x2_phase_shifter}
+  p52: {component: mzi2x2_2x2_phase_shifter}
+  p53: {component: mzi2x2_2x2_phase_shifter}
+  p54: {component: mzi2x2_2x2_phase_shifter}
+  p55: {component: mzi2x2_2x2_phase_shifter}
+  p56: {component: mzi2x2_2x2_phase_shifter}
+  p57: {component: mzi2x2_2x2_phase_shifter}
+  p58: {component: mzi2x2_2x2_phase_shifter}
+  p59: {component: mzi2x2_2x2_phase_shifter}
+  p60: {component: mzi2x2_2x2_phase_shifter}
+  p61: {component: mzi2x2_2x2_phase_shifter}
+  p62: {component: mzi2x2_2x2_phase_shifter}
+  p63: {component: mzi2x2_2x2_phase_shifter}
+  p64: {component: mzi2x2_2x2_phase_shifter}
+  p65: {component: mzi2x2_2x2_phase_shifter}
+  p66: {component: mzi2x2_2x2_phase_shifter}
+  p67: {component: mzi2x2_2x2_phase_shifter}
+  p68: {component: mzi2x2_2x2_phase_shifter}
+  p69: {component: mzi2x2_2x2_phase_shifter}
+  p70: {component: mzi2x2_2x2_phase_shifter}
+  p71: {component: mzi2x2_2x2_phase_shifter}
+  p72: {component: mzi2x2_2x2_phase_shifter}
+  p73: {component: mzi2x2_2x2_phase_shifter}
+  p74: {component: mzi2x2_2x2_phase_shifter}
+  p75: {component: mzi2x2_2x2_phase_shifter}
+  p76: {component: mzi2x2_2x2_phase_shifter}
+  p77: {component: mzi2x2_2x2_phase_shifter}
+  p78: {component: mzi2x2_2x2_phase_shifter}
+  p79: {component: mzi2x2_2x2_phase_shifter}
+  p80: {component: mzi2x2_2x2_phase_shifter}
+  p81: {component: mzi2x2_2x2_phase_shifter}
+  p82: {component: mzi2x2_2x2_phase_shifter}
+  p83: {component: mzi2x2_2x2_phase_shifter}
+  p84: {component: mzi2x2_2x2_phase_shifter}
+  p85: {component: mzi2x2_2x2_phase_shifter}
+  p86: {component: mzi2x2_2x2_phase_shifter}
+  p87: {component: mzi2x2_2x2_phase_shifter}
+  p88: {component: mzi2x2_2x2_phase_shifter}
+  p89: {component: mzi2x2_2x2_phase_shifter}
+  p90: {component: mzi2x2_2x2_phase_shifter}
+  p91: {component: mzi2x2_2x2_phase_shifter}
+  p92: {component: mzi2x2_2x2_phase_shifter}
+  p93: {component: mzi2x2_2x2_phase_shifter}
+  p94: {component: mzi2x2_2x2_phase_shifter}
+  p95: {component: mzi2x2_2x2_phase_shifter}
+  p96: {component: mzi2x2_2x2_phase_shifter}
+  p97: {component: mzi2x2_2x2_phase_shifter}
+  p98: {component: mzi2x2_2x2_phase_shifter}
+  p99: {component: mzi2x2_2x2_phase_shifter}
+  p100: {component: mzi2x2_2x2_phase_shifter}
+  p101: {component: mzi2x2_2x2_phase_shifter}
+  p102: {component: mzi2x2_2x2_phase_shifter}
+  p103: {component: mzi2x2_2x2_phase_shifter}
+  p104: {component: mzi2x2_2x2_phase_shifter}
+  p105: {component: mzi2x2_2x2_phase_shifter}
+  p106: {component: mzi2x2_2x2_phase_shifter}
+  p107: {component: mzi2x2_2x2_phase_shifter}
+  p108: {component: mzi2x2_2x2_phase_shifter}
+  p109: {component: mzi2x2_2x2_phase_shifter}
+  p110: {component: mzi2x2_2x2_phase_shifter}
+  p111: {component: mzi2x2_2x2_phase_shifter}
+  p112: {component: mzi2x2_2x2_phase_shifter}
+  p113: {component: mzi2x2_2x2_phase_shifter}
+  p114: {component: mzi2x2_2x2_phase_shifter}
+  p115: {component: mzi2x2_2x2_phase_shifter}
+  p116: {component: mzi2x2_2x2_phase_shifter}
+  p117: {component: mzi2x2_2x2_phase_shifter}
+  p118: {component: mzi2x2_2x2_phase_shifter}
+  p119: {component: mzi2x2_2x2_phase_shifter}
+  p120: {component: mzi2x2_2x2_phase_shifter}
+  p121: {component: mzi2x2_2x2_phase_shifter}
+  p122: {component: mzi2x2_2x2_phase_shifter}
+  p123: {component: mzi2x2_2x2_phase_shifter}
+  p124: {component: mzi2x2_2x2_phase_shifter}
+  p125: {component: mzi2x2_2x2_phase_shifter}
+  p126: {component: mzi2x2_2x2_phase_shifter}
+  p127: {component: mzi2x2_2x2_phase_shifter}
+  p128: {component: mzi2x2_2x2_phase_shifter}
+  p129: {component: mzi2x2_2x2_phase_shifter}
+  p130: {component: mzi2x2_2x2_phase_shifter}
+  p131: {component: mzi2x2_2x2_phase_shifter}
+  p132: {component: mzi2x2_2x2_phase_shifter}
+  p133: {component: mzi2x2_2x2_phase_shifter}
+  p134: {component: mzi2x2_2x2_phase_shifter}
+  p135: {component: mzi2x2_2x2_phase_shifter}
+  p136: {component: mzi2x2_2x2_phase_shifter}
 
 placements:
-  # --- Input YB Tree (紧凑间距) ---
-  gc_in_0: {x: 50.0, y: 1000.0, rotation: 180}
-  yb_0_0: {x: 150.0, y: 1000.0, rotation: 0}
-  yb_1_0: {x: 250.0, y: 50.0, rotation: 0}
-  yb_1_1: {x: 250.0, y: 1950.0, rotation: 0}
-  yb_2_0: {x: 350.0, y: 50.0, rotation: 0}
-  yb_2_1: {x: 350.0, y: 683.3, rotation: 0}
-  yb_2_2: {x: 350.0, y: 1316.7, rotation: 0}
-  yb_2_3: {x: 350.0, y: 1950.0, rotation: 0}
-  yb_3_0: {x: 450.0, y: 50.0, rotation: 0}
-  yb_3_1: {x: 450.0, y: 321.4, rotation: 0}
-  yb_3_2: {x: 450.0, y: 592.9, rotation: 0}
-  yb_3_3: {x: 450.0, y: 864.3, rotation: 0}
-  yb_3_4: {x: 450.0, y: 1135.7, rotation: 0}
-  yb_3_5: {x: 450.0, y: 1407.1, rotation: 0}
-  yb_3_6: {x: 450.0, y: 1678.6, rotation: 0}
-  yb_3_7: {x: 450.0, y: 1950.0, rotation: 0}
+  # --- Input YB Tree ---
+  gc_in_0: {x: 50, y: 1000, rotation: 180}
+  yb_0_0: {x: 150, y: 1000, rotation: 0}
+  yb_1_0: {x: 250, y: 520, rotation: 0}
+  yb_1_1: {x: 250, y: 1480, rotation: 0}
+  yb_2_0: {x: 350, y: 280, rotation: 0}
+  yb_2_1: {x: 350, y: 760, rotation: 0}
+  yb_2_2: {x: 350, y: 1240, rotation: 0}
+  yb_2_3: {x: 350, y: 1720, rotation: 0}
+  yb_3_0: {x: 450, y: 160, rotation: 0}
+  yb_3_1: {x: 450, y: 400, rotation: 0}
+  yb_3_2: {x: 450, y: 640, rotation: 0}
+  yb_3_3: {x: 450, y: 880, rotation: 0}
+  yb_3_4: {x: 450, y: 1120, rotation: 0}
+  yb_3_5: {x: 450, y: 1360, rotation: 0}
+  yb_3_6: {x: 450, y: 1600, rotation: 0}
+  yb_3_7: {x: 450, y: 1840, rotation: 0}
 
-  # --- Input Modulator MZIs (中等间距过渡) ---
-  mzi_0: {x: 600.0, y: 50.0, rotation: 0}
-  mzi_1: {x: 600.0, y: 176.7, rotation: 0}
-  mzi_2: {x: 600.0, y: 303.3, rotation: 0}
-  mzi_3: {x: 600.0, y: 430.0, rotation: 0}
-  mzi_4: {x: 600.0, y: 556.7, rotation: 0}
-  mzi_5: {x: 600.0, y: 683.3, rotation: 0}
-  mzi_6: {x: 600.0, y: 810.0, rotation: 0}
-  mzi_7: {x: 600.0, y: 936.7, rotation: 0}
-  mzi_8: {x: 600.0, y: 1063.3, rotation: 0}
-  mzi_9: {x: 600.0, y: 1190.0, rotation: 0}
-  mzi_10: {x: 600.0, y: 1316.7, rotation: 0}
-  mzi_11: {x: 600.0, y: 1443.3, rotation: 0}
-  mzi_12: {x: 600.0, y: 1570.0, rotation: 0}
-  mzi_13: {x: 600.0, y: 1696.7, rotation: 0}
-  mzi_14: {x: 600.0, y: 1823.3, rotation: 0}
-  mzi_15: {x: 600.0, y: 1950.0, rotation: 0}
+  # --- Input Modulator MZIs ---
+  mzi_0: {x: 550, y: 100, rotation: 0}
+  mzi_1: {x: 550, y: 220, rotation: 0}
+  mzi_2: {x: 550, y: 340, rotation: 0}
+  mzi_3: {x: 550, y: 460, rotation: 0}
+  mzi_4: {x: 550, y: 580, rotation: 0}
+  mzi_5: {x: 550, y: 700, rotation: 0}
+  mzi_6: {x: 550, y: 820, rotation: 0}
+  mzi_7: {x: 550, y: 940, rotation: 0}
+  mzi_8: {x: 550, y: 1060, rotation: 0}
+  mzi_9: {x: 550, y: 1180, rotation: 0}
+  mzi_10: {x: 550, y: 1300, rotation: 0}
+  mzi_11: {x: 550, y: 1420, rotation: 0}
+  mzi_12: {x: 550, y: 1540, rotation: 0}
+  mzi_13: {x: 550, y: 1660, rotation: 0}
+  mzi_14: {x: 550, y: 1780, rotation: 0}
+  mzi_15: {x: 550, y: 1900, rotation: 0}
 
-  # --- Clements Mesh Col 0 (Even - 宽间距) ---
-  p1: {x: 910.0, y: 50.0, rotation: 0}
-  p2: {x: 910.0, y: 321.4, rotation: 0}
-  p3: {x: 910.0, y: 592.9, rotation: 0}
-  p4: {x: 910.0, y: 864.3, rotation: 0}
-  p5: {x: 910.0, y: 1135.7, rotation: 0}
-  p6: {x: 910.0, y: 1407.1, rotation: 0}
-  p7: {x: 910.0, y: 1678.6, rotation: 0}
-  p8: {x: 910.0, y: 1950.0, rotation: 0}
+  # --- Clements Mesh Col 0 (Even - 8元件) ---
+  p1: {x: 870, y: 160, rotation: 0}
+  p2: {x: 870, y: 400, rotation: 0}
+  p3: {x: 870, y: 640, rotation: 0}
+  p4: {x: 870, y: 880, rotation: 0}
+  p5: {x: 870, y: 1120, rotation: 0}
+  p6: {x: 870, y: 1360, rotation: 0}
+  p7: {x: 870, y: 1600, rotation: 0}
+  p8: {x: 870, y: 1840, rotation: 0}
 
-  # --- Clements Mesh Col 1 (Odd) ---
-  p121: {x: 1220.0, y: 50.0, rotation: 0}
-  p9: {x: 1220.0, y: 287.5, rotation: 0}
-  p10: {x: 1220.0, y: 525.0, rotation: 0}
-  p11: {x: 1220.0, y: 762.5, rotation: 0}
-  p12: {x: 1220.0, y: 1000.0, rotation: 0}
-  p13: {x: 1220.0, y: 1237.5, rotation: 0}
-  p14: {x: 1220.0, y: 1475.0, rotation: 0}
-  p15: {x: 1220.0, y: 1712.5, rotation: 0}
-  p122: {x: 1220.0, y: 1950.0, rotation: 0}
+  # --- Clements Mesh Col 1 (Odd - 9元件) ---
+  p121: {x: 1190, y: 100, rotation: 0}
+  p9: {x: 1190, y: 280, rotation: 0}
+  p10: {x: 1190, y: 520, rotation: 0}
+  p11: {x: 1190, y: 760, rotation: 0}
+  p12: {x: 1190, y: 1000, rotation: 0}
+  p13: {x: 1190, y: 1240, rotation: 0}
+  p14: {x: 1190, y: 1480, rotation: 0}
+  p15: {x: 1190, y: 1720, rotation: 0}
+  p122: {x: 1190, y: 1900, rotation: 0}
 
-  # --- Clements Mesh Col 2 (Even) ---
-  p16: {x: 1530.0, y: 50.0, rotation: 0}
-  p17: {x: 1530.0, y: 321.4, rotation: 0}
-  p18: {x: 1530.0, y: 592.9, rotation: 0}
-  p19: {x: 1530.0, y: 864.3, rotation: 0}
-  p20: {x: 1530.0, y: 1135.7, rotation: 0}
-  p21: {x: 1530.0, y: 1407.1, rotation: 0}
-  p22: {x: 1530.0, y: 1678.6, rotation: 0}
-  p23: {x: 1530.0, y: 1950.0, rotation: 0}
+  # --- Clements Mesh Col 2 (Even - 8元件) ---
+  p16: {x: 1510, y: 160, rotation: 0}
+  p17: {x: 1510, y: 400, rotation: 0}
+  p18: {x: 1510, y: 640, rotation: 0}
+  p19: {x: 1510, y: 880, rotation: 0}
+  p20: {x: 1510, y: 1120, rotation: 0}
+  p21: {x: 1510, y: 1360, rotation: 0}
+  p22: {x: 1510, y: 1600, rotation: 0}
+  p23: {x: 1510, y: 1840, rotation: 0}
 
-  # --- Clements Mesh Col 3 (Odd) ---
-  p123: {x: 1840.0, y: 50.0, rotation: 0}
-  p24: {x: 1840.0, y: 287.5, rotation: 0}
-  p25: {x: 1840.0, y: 525.0, rotation: 0}
-  p26: {x: 1840.0, y: 762.5, rotation: 0}
-  p27: {x: 1840.0, y: 1000.0, rotation: 0}
-  p28: {x: 1840.0, y: 1237.5, rotation: 0}
-  p29: {x: 1840.0, y: 1475.0, rotation: 0}
-  p30: {x: 1840.0, y: 1712.5, rotation: 0}
-  p124: {x: 1840.0, y: 1950.0, rotation: 0}
+  # --- Clements Mesh Col 3 (Odd - 9元件) ---
+  p123: {x: 1830, y: 100, rotation: 0}
+  p24: {x: 1830, y: 280, rotation: 0}
+  p25: {x: 1830, y: 520, rotation: 0}
+  p26: {x: 1830, y: 760, rotation: 0}
+  p27: {x: 1830, y: 1000, rotation: 0}
+  p28: {x: 1830, y: 1240, rotation: 0}
+  p29: {x: 1830, y: 1480, rotation: 0}
+  p30: {x: 1830, y: 1720, rotation: 0}
+  p124: {x: 1830, y: 1900, rotation: 0}
 
-  # --- Clements Mesh Col 4 (Even) ---
-  p31: {x: 2150.0, y: 50.0, rotation: 0}
-  p32: {x: 2150.0, y: 321.4, rotation: 0}
-  p33: {x: 2150.0, y: 592.9, rotation: 0}
-  p34: {x: 2150.0, y: 864.3, rotation: 0}
-  p35: {x: 2150.0, y: 1135.7, rotation: 0}
-  p36: {x: 2150.0, y: 1407.1, rotation: 0}
-  p37: {x: 2150.0, y: 1678.6, rotation: 0}
-  p38: {x: 2150.0, y: 1950.0, rotation: 0}
+  # --- Clements Mesh Col 4 (Even - 8元件) ---
+  p31: {x: 2150, y: 160, rotation: 0}
+  p32: {x: 2150, y: 400, rotation: 0}
+  p33: {x: 2150, y: 640, rotation: 0}
+  p34: {x: 2150, y: 880, rotation: 0}
+  p35: {x: 2150, y: 1120, rotation: 0}
+  p36: {x: 2150, y: 1360, rotation: 0}
+  p37: {x: 2150, y: 1600, rotation: 0}
+  p38: {x: 2150, y: 1840, rotation: 0}
 
-  # --- Clements Mesh Col 5 (Odd) ---
-  p125: {x: 2460.0, y: 50.0, rotation: 0}
-  p39: {x: 2460.0, y: 287.5, rotation: 0}
-  p40: {x: 2460.0, y: 525.0, rotation: 0}
-  p41: {x: 2460.0, y: 762.5, rotation: 0}
-  p42: {x: 2460.0, y: 1000.0, rotation: 0}
-  p43: {x: 2460.0, y: 1237.5, rotation: 0}
-  p44: {x: 2460.0, y: 1475.0, rotation: 0}
-  p45: {x: 2460.0, y: 1712.5, rotation: 0}
-  p126: {x: 2460.0, y: 1950.0, rotation: 0}
+  # --- Clements Mesh Col 5 (Odd - 9元件) ---
+  p125: {x: 2470, y: 100, rotation: 0}
+  p39: {x: 2470, y: 280, rotation: 0}
+  p40: {x: 2470, y: 520, rotation: 0}
+  p41: {x: 2470, y: 760, rotation: 0}
+  p42: {x: 2470, y: 1000, rotation: 0}
+  p43: {x: 2470, y: 1240, rotation: 0}
+  p44: {x: 2470, y: 1480, rotation: 0}
+  p45: {x: 2470, y: 1720, rotation: 0}
+  p126: {x: 2470, y: 1900, rotation: 0}
 
-  # --- Clements Mesh Col 6 (Even) ---
-  p46: {x: 2770.0, y: 50.0, rotation: 0}
-  p47: {x: 2770.0, y: 321.4, rotation: 0}
-  p48: {x: 2770.0, y: 592.9, rotation: 0}
-  p49: {x: 2770.0, y: 864.3, rotation: 0}
-  p50: {x: 2770.0, y: 1135.7, rotation: 0}
-  p51: {x: 2770.0, y: 1407.1, rotation: 0}
-  p52: {x: 2770.0, y: 1678.6, rotation: 0}
-  p53: {x: 2770.0, y: 1950.0, rotation: 0}
+  # --- Clements Mesh Col 6 (Even - 8元件) ---
+  p46: {x: 2790, y: 160, rotation: 0}
+  p47: {x: 2790, y: 400, rotation: 0}
+  p48: {x: 2790, y: 640, rotation: 0}
+  p49: {x: 2790, y: 880, rotation: 0}
+  p50: {x: 2790, y: 1120, rotation: 0}
+  p51: {x: 2790, y: 1360, rotation: 0}
+  p52: {x: 2790, y: 1600, rotation: 0}
+  p53: {x: 2790, y: 1840, rotation: 0}
 
-  # --- Clements Mesh Col 7 (Odd) ---
-  p127: {x: 3080.0, y: 50.0, rotation: 0}
-  p54: {x: 3080.0, y: 287.5, rotation: 0}
-  p55: {x: 3080.0, y: 525.0, rotation: 0}
-  p56: {x: 3080.0, y: 762.5, rotation: 0}
-  p57: {x: 3080.0, y: 1000.0, rotation: 0}
-  p58: {x: 3080.0, y: 1237.5, rotation: 0}
-  p59: {x: 3080.0, y: 1475.0, rotation: 0}
-  p60: {x: 3080.0, y: 1712.5, rotation: 0}
-  p128: {x: 3080.0, y: 1950.0, rotation: 0}
+  # --- Clements Mesh Col 7 (Odd - 9元件) ---
+  p127: {x: 3110, y: 100, rotation: 0}
+  p54: {x: 3110, y: 280, rotation: 0}
+  p55: {x: 3110, y: 520, rotation: 0}
+  p56: {x: 3110, y: 760, rotation: 0}
+  p57: {x: 3110, y: 1000, rotation: 0}
+  p58: {x: 3110, y: 1240, rotation: 0}
+  p59: {x: 3110, y: 1480, rotation: 0}
+  p60: {x: 3110, y: 1720, rotation: 0}
+  p128: {x: 3110, y: 1900, rotation: 0}
 
-  # --- Clements Mesh Col 8 (Even) ---
-  p61: {x: 3390.0, y: 50.0, rotation: 0}
-  p62: {x: 3390.0, y: 321.4, rotation: 0}
-  p63: {x: 3390.0, y: 592.9, rotation: 0}
-  p64: {x: 3390.0, y: 864.3, rotation: 0}
-  p65: {x: 3390.0, y: 1135.7, rotation: 0}
-  p66: {x: 3390.0, y: 1407.1, rotation: 0}
-  p67: {x: 3390.0, y: 1678.6, rotation: 0}
-  p68: {x: 3390.0, y: 1950.0, rotation: 0}
+  # --- Clements Mesh Col 8 (Even - 8元件) ---
+  p61: {x: 3430, y: 160, rotation: 0}
+  p62: {x: 3430, y: 400, rotation: 0}
+  p63: {x: 3430, y: 640, rotation: 0}
+  p64: {x: 3430, y: 880, rotation: 0}
+  p65: {x: 3430, y: 1120, rotation: 0}
+  p66: {x: 3430, y: 1360, rotation: 0}
+  p67: {x: 3430, y: 1600, rotation: 0}
+  p68: {x: 3430, y: 1840, rotation: 0}
 
-  # --- Clements Mesh Col 9 (Odd) ---
-  p129: {x: 3700.0, y: 50.0, rotation: 0}
-  p69: {x: 3700.0, y: 287.5, rotation: 0}
-  p70: {x: 3700.0, y: 525.0, rotation: 0}
-  p71: {x: 3700.0, y: 762.5, rotation: 0}
-  p72: {x: 3700.0, y: 1000.0, rotation: 0}
-  p73: {x: 3700.0, y: 1237.5, rotation: 0}
-  p74: {x: 3700.0, y: 1475.0, rotation: 0}
-  p75: {x: 3700.0, y: 1712.5, rotation: 0}
-  p130: {x: 3700.0, y: 1950.0, rotation: 0}
+  # --- Clements Mesh Col 9 (Odd - 9元件) ---
+  p129: {x: 3750, y: 100, rotation: 0}
+  p69: {x: 3750, y: 280, rotation: 0}
+  p70: {x: 3750, y: 520, rotation: 0}
+  p71: {x: 3750, y: 760, rotation: 0}
+  p72: {x: 3750, y: 1000, rotation: 0}
+  p73: {x: 3750, y: 1240, rotation: 0}
+  p74: {x: 3750, y: 1480, rotation: 0}
+  p75: {x: 3750, y: 1720, rotation: 0}
+  p130: {x: 3750, y: 1900, rotation: 0}
 
-  # --- Clements Mesh Col 10 (Even) ---
-  p76: {x: 4010.0, y: 50.0, rotation: 0}
-  p77: {x: 4010.0, y: 321.4, rotation: 0}
-  p78: {x: 4010.0, y: 592.9, rotation: 0}
-  p79: {x: 4010.0, y: 864.3, rotation: 0}
-  p80: {x: 4010.0, y: 1135.7, rotation: 0}
-  p81: {x: 4010.0, y: 1407.1, rotation: 0}
-  p82: {x: 4010.0, y: 1678.6, rotation: 0}
-  p83: {x: 4010.0, y: 1950.0, rotation: 0}
+  # --- Clements Mesh Col 10 (Even - 8元件) ---
+  p76: {x: 4070, y: 160, rotation: 0}
+  p77: {x: 4070, y: 400, rotation: 0}
+  p78: {x: 4070, y: 640, rotation: 0}
+  p79: {x: 4070, y: 880, rotation: 0}
+  p80: {x: 4070, y: 1120, rotation: 0}
+  p81: {x: 4070, y: 1360, rotation: 0}
+  p82: {x: 4070, y: 1600, rotation: 0}
+  p83: {x: 4070, y: 1840, rotation: 0}
 
-  # --- Clements Mesh Col 11 (Odd) ---
-  p131: {x: 4320.0, y: 50.0, rotation: 0}
-  p84: {x: 4320.0, y: 287.5, rotation: 0}
-  p85: {x: 4320.0, y: 525.0, rotation: 0}
-  p86: {x: 4320.0, y: 762.5, rotation: 0}
-  p87: {x: 4320.0, y: 1000.0, rotation: 0}
-  p88: {x: 4320.0, y: 1237.5, rotation: 0}
-  p89: {x: 4320.0, y: 1475.0, rotation: 0}
-  p90: {x: 4320.0, y: 1712.5, rotation: 0}
-  p132: {x: 4320.0, y: 1950.0, rotation: 0}
+  # --- Clements Mesh Col 11 (Odd - 9元件) ---
+  p131: {x: 4390, y: 100, rotation: 0}
+  p84: {x: 4390, y: 280, rotation: 0}
+  p85: {x: 4390, y: 520, rotation: 0}
+  p86: {x: 4390, y: 760, rotation: 0}
+  p87: {x: 4390, y: 1000, rotation: 0}
+  p88: {x: 4390, y: 1240, rotation: 0}
+  p89: {x: 4390, y: 1480, rotation: 0}
+  p90: {x: 4390, y: 1720, rotation: 0}
+  p132: {x: 4390, y: 1900, rotation: 0}
 
-  # --- Clements Mesh Col 12 (Even) ---
-  p91: {x: 4630.0, y: 50.0, rotation: 0}
-  p92: {x: 4630.0, y: 321.4, rotation: 0}
-  p93: {x: 4630.0, y: 592.9, rotation: 0}
-  p94: {x: 4630.0, y: 864.3, rotation: 0}
-  p95: {x: 4630.0, y: 1135.7, rotation: 0}
-  p96: {x: 4630.0, y: 1407.1, rotation: 0}
-  p97: {x: 4630.0, y: 1678.6, rotation: 0}
-  p98: {x: 4630.0, y: 1950.0, rotation: 0}
+  # --- Clements Mesh Col 12 (Even - 8元件) ---
+  p91: {x: 4710, y: 160, rotation: 0}
+  p92: {x: 4710, y: 400, rotation: 0}
+  p93: {x: 4710, y: 640, rotation: 0}
+  p94: {x: 4710, y: 880, rotation: 0}
+  p95: {x: 4710, y: 1120, rotation: 0}
+  p96: {x: 4710, y: 1360, rotation: 0}
+  p97: {x: 4710, y: 1600, rotation: 0}
+  p98: {x: 4710, y: 1840, rotation: 0}
 
-  # --- Clements Mesh Col 13 (Odd) ---
-  p133: {x: 4940.0, y: 50.0, rotation: 0}
-  p99: {x: 4940.0, y: 287.5, rotation: 0}
-  p100: {x: 4940.0, y: 525.0, rotation: 0}
-  p101: {x: 4940.0, y: 762.5, rotation: 0}
-  p102: {x: 4940.0, y: 1000.0, rotation: 0}
-  p103: {x: 4940.0, y: 1237.5, rotation: 0}
-  p104: {x: 4940.0, y: 1475.0, rotation: 0}
-  p105: {x: 4940.0, y: 1712.5, rotation: 0}
-  p134: {x: 4940.0, y: 1950.0, rotation: 0}
+  # --- Clements Mesh Col 13 (Odd - 9元件) ---
+  p133: {x: 5030, y: 100, rotation: 0}
+  p99: {x: 5030, y: 280, rotation: 0}
+  p100: {x: 5030, y: 520, rotation: 0}
+  p101: {x: 5030, y: 760, rotation: 0}
+  p102: {x: 5030, y: 1000, rotation: 0}
+  p103: {x: 5030, y: 1240, rotation: 0}
+  p104: {x: 5030, y: 1480, rotation: 0}
+  p105: {x: 5030, y: 1720, rotation: 0}
+  p134: {x: 5030, y: 1900, rotation: 0}
 
-  # --- Clements Mesh Col 14 (Even) ---
-  p106: {x: 5250.0, y: 50.0, rotation: 0}
-  p107: {x: 5250.0, y: 321.4, rotation: 0}
-  p108: {x: 5250.0, y: 592.9, rotation: 0}
-  p109: {x: 5250.0, y: 864.3, rotation: 0}
-  p110: {x: 5250.0, y: 1135.7, rotation: 0}
-  p111: {x: 5250.0, y: 1407.1, rotation: 0}
-  p112: {x: 5250.0, y: 1678.6, rotation: 0}
-  p113: {x: 5250.0, y: 1950.0, rotation: 0}
+  # --- Clements Mesh Col 14 (Even - 8元件) ---
+  p106: {x: 5350, y: 160, rotation: 0}
+  p107: {x: 5350, y: 400, rotation: 0}
+  p108: {x: 5350, y: 640, rotation: 0}
+  p109: {x: 5350, y: 880, rotation: 0}
+  p110: {x: 5350, y: 1120, rotation: 0}
+  p111: {x: 5350, y: 1360, rotation: 0}
+  p112: {x: 5350, y: 1600, rotation: 0}
+  p113: {x: 5350, y: 1840, rotation: 0}
 
-  # --- Clements Mesh Col 15 (Odd) ---
-  p135: {x: 5560.0, y: 50.0, rotation: 0}
-  p114: {x: 5560.0, y: 287.5, rotation: 0}
-  p115: {x: 5560.0, y: 525.0, rotation: 0}
-  p116: {x: 5560.0, y: 762.5, rotation: 0}
-  p117: {x: 5560.0, y: 1000.0, rotation: 0}
-  p118: {x: 5560.0, y: 1237.5, rotation: 0}
-  p119: {x: 5560.0, y: 1475.0, rotation: 0}
-  p120: {x: 5560.0, y: 1712.5, rotation: 0}
-  p136: {x: 5560.0, y: 1950.0, rotation: 0}
+  # --- Clements Mesh Col 15 (Odd - 9元件) ---
+  p135: {x: 5670, y: 100, rotation: 0}
+  p114: {x: 5670, y: 280, rotation: 0}
+  p115: {x: 5670, y: 520, rotation: 0}
+  p116: {x: 5670, y: 760, rotation: 0}
+  p117: {x: 5670, y: 1000, rotation: 0}
+  p118: {x: 5670, y: 1240, rotation: 0}
+  p119: {x: 5670, y: 1480, rotation: 0}
+  p120: {x: 5670, y: 1720, rotation: 0}
+  p136: {x: 5670, y: 1900, rotation: 0}
 
   # --- Output Stage ---
-  gc_out_0: {x: 5950.0, y: 50.0, rotation: 0}
-  gc_out_1: {x: 5950.0, y: 176.7, rotation: 0}
-  gc_out_2: {x: 5950.0, y: 303.3, rotation: 0}
-  gc_out_3: {x: 5950.0, y: 430.0, rotation: 0}
-  gc_out_4: {x: 5950.0, y: 556.7, rotation: 0}
-  gc_out_5: {x: 5950.0, y: 683.3, rotation: 0}
-  gc_out_6: {x: 5950.0, y: 810.0, rotation: 0}
-  gc_out_7: {x: 5950.0, y: 936.7, rotation: 0}
-  gc_out_8: {x: 5950.0, y: 1063.3, rotation: 0}
-  gc_out_9: {x: 5950.0, y: 1190.0, rotation: 0}
-  gc_out_10: {x: 5950.0, y: 1316.7, rotation: 0}
-  gc_out_11: {x: 5950.0, y: 1443.3, rotation: 0}
-  gc_out_12: {x: 5950.0, y: 1570.0, rotation: 0}
-  gc_out_13: {x: 5950.0, y: 1696.7, rotation: 0}
-  gc_out_14: {x: 5950.0, y: 1823.3, rotation: 0}
-  gc_out_15: {x: 5950.0, y: 1950.0, rotation: 0}
+  gc_out_0: {x: 5950, y: 100, rotation: 0}
+  gc_out_1: {x: 5950, y: 220, rotation: 0}
+  gc_out_2: {x: 5950, y: 340, rotation: 0}
+  gc_out_3: {x: 5950, y: 460, rotation: 0}
+  gc_out_4: {x: 5950, y: 580, rotation: 0}
+  gc_out_5: {x: 5950, y: 700, rotation: 0}
+  gc_out_6: {x: 5950, y: 820, rotation: 0}
+  gc_out_7: {x: 5950, y: 940, rotation: 0}
+  gc_out_8: {x: 5950, y: 1060, rotation: 0}
+  gc_out_9: {x: 5950, y: 1180, rotation: 0}
+  gc_out_10: {x: 5950, y: 1300, rotation: 0}
+  gc_out_11: {x: 5950, y: 1420, rotation: 0}
+  gc_out_12: {x: 5950, y: 1540, rotation: 0}
+  gc_out_13: {x: 5950, y: 1660, rotation: 0}
+  gc_out_14: {x: 5950, y: 1780, rotation: 0}
+  gc_out_15: {x: 5950, y: 1900, rotation: 0}
 
 connections:
   # --- YB Splitter Tree ---

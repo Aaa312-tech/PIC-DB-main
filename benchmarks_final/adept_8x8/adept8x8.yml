@@ -1,0 +1,612 @@
+name: adept8x8
+bbox:
+- - 0
+  - 0
+- - 4500
+  - 800
+instances:
+  gc_in_0:
+    component: grating_coupler_elliptical_lumerical
+  fanout_yb_0_0:
+    component: mmi1x2
+  fanout_yb_1_0:
+    component: mmi1x2
+  fanout_yb_1_1:
+    component: mmi1x2
+  fanout_yb_2_0:
+    component: mmi1x2
+  fanout_yb_2_1:
+    component: mmi1x2
+  fanout_yb_2_2:
+    component: mmi1x2
+  fanout_yb_2_3:
+    component: mmi1x2
+  mol_array_0_mzi_0:
+    component: mzi2x2_2x2_phase_shifter
+  mol_array_0_mzi_1:
+    component: mzi2x2_2x2_phase_shifter
+  mol_array_0_mzi_2:
+    component: mzi2x2_2x2_phase_shifter
+  mol_array_0_mzi_3:
+    component: mzi2x2_2x2_phase_shifter
+  mol_array_0_mzi_4:
+    component: mzi2x2_2x2_phase_shifter
+  mol_array_0_mzi_5:
+    component: mzi2x2_2x2_phase_shifter
+  mol_array_0_mzi_6:
+    component: mzi2x2_2x2_phase_shifter
+  mol_array_0_mzi_7:
+    component: mzi2x2_2x2_phase_shifter
+  mmi0_ps_array_0_heater_0:
+    component: m_straight_heater_metal
+  mmi0_ps_array_0_heater_1:
+    component: m_straight_heater_metal
+  mmi0_ps_array_0_heater_2:
+    component: m_straight_heater_metal
+  mmi0_ps_array_0_heater_3:
+    component: m_straight_heater_metal
+  mmi0_ps_array_0_heater_4:
+    component: m_straight_heater_metal
+  mmi0_ps_array_0_heater_5:
+    component: m_straight_heater_metal
+  mmi0_ps_array_0_heater_6:
+    component: m_straight_heater_metal
+  mmi0_ps_array_0_heater_7:
+    component: m_straight_heater_metal
+  mmi0_multiport_0_0:
+    component: m_mmi_I6_O6
+  mmi0_multiport_0_1:
+    component: m_mmi_I2_O2
+  mmi0_ps_array_1_heater_0:
+    component: m_straight_heater_metal
+  mmi0_ps_array_1_heater_1:
+    component: m_straight_heater_metal
+  mmi0_ps_array_1_heater_2:
+    component: m_straight_heater_metal
+  mmi0_ps_array_1_heater_3:
+    component: m_straight_heater_metal
+  mmi0_ps_array_1_heater_4:
+    component: m_straight_heater_metal
+  mmi0_ps_array_1_heater_5:
+    component: m_straight_heater_metal
+  mmi0_ps_array_1_heater_6:
+    component: m_straight_heater_metal
+  mmi0_ps_array_1_heater_7:
+    component: m_straight_heater_metal
+  mmi0_multiport_1_0:
+    component: m_mmi_I4_O4
+  mmi0_multiport_1_1:
+    component: m_mmi_I4_O4
+  mmi0_ps_array_2_heater_0:
+    component: m_straight_heater_metal
+  mmi0_ps_array_2_heater_1:
+    component: m_straight_heater_metal
+  mmi0_ps_array_2_heater_2:
+    component: m_straight_heater_metal
+  mmi0_ps_array_2_heater_3:
+    component: m_straight_heater_metal
+  mmi0_ps_array_2_heater_4:
+    component: m_straight_heater_metal
+  mmi0_ps_array_2_heater_5:
+    component: m_straight_heater_metal
+  mmi0_ps_array_2_heater_6:
+    component: m_straight_heater_metal
+  mmi0_ps_array_2_heater_7:
+    component: m_straight_heater_metal
+  mmi0_multiport_2_0:
+    component: m_mmi_I4_O4
+  mmi0_multiport_2_1:
+    component: m_mmi_I4_O4
+  mol_array_1_mzi_0:
+    component: mzi2x2_2x2_phase_shifter
+  mol_array_1_mzi_1:
+    component: mzi2x2_2x2_phase_shifter
+  mol_array_1_mzi_2:
+    component: mzi2x2_2x2_phase_shifter
+  mol_array_1_mzi_3:
+    component: mzi2x2_2x2_phase_shifter
+  mol_array_1_mzi_4:
+    component: mzi2x2_2x2_phase_shifter
+  mol_array_1_mzi_5:
+    component: mzi2x2_2x2_phase_shifter
+  mol_array_1_mzi_6:
+    component: mzi2x2_2x2_phase_shifter
+  mol_array_1_mzi_7:
+    component: mzi2x2_2x2_phase_shifter
+  mmi1_ps_array_0_heater_0:
+    component: m_straight_heater_metal
+  mmi1_ps_array_0_heater_1:
+    component: m_straight_heater_metal
+  mmi1_ps_array_0_heater_2:
+    component: m_straight_heater_metal
+  mmi1_ps_array_0_heater_3:
+    component: m_straight_heater_metal
+  mmi1_ps_array_0_heater_4:
+    component: m_straight_heater_metal
+  mmi1_ps_array_0_heater_5:
+    component: m_straight_heater_metal
+  mmi1_ps_array_0_heater_6:
+    component: m_straight_heater_metal
+  mmi1_ps_array_0_heater_7:
+    component: m_straight_heater_metal
+  mmi1_multiport_0_0:
+    component: m_mmi_I6_O6
+  mmi1_multiport_0_1:
+    component: m_mmi_I2_O2
+  mmi1_ps_array_1_heater_0:
+    component: m_straight_heater_metal
+  mmi1_ps_array_1_heater_1:
+    component: m_straight_heater_metal
+  mmi1_ps_array_1_heater_2:
+    component: m_straight_heater_metal
+  mmi1_ps_array_1_heater_3:
+    component: m_straight_heater_metal
+  mmi1_ps_array_1_heater_4:
+    component: m_straight_heater_metal
+  mmi1_ps_array_1_heater_5:
+    component: m_straight_heater_metal
+  mmi1_ps_array_1_heater_6:
+    component: m_straight_heater_metal
+  mmi1_ps_array_1_heater_7:
+    component: m_straight_heater_metal
+  mmi1_multiport_1_0:
+    component: m_mmi_I4_O4
+  mmi1_multiport_1_1:
+    component: m_mmi_I4_O4
+  gc_out_0:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_1:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_2:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_3:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_4:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_5:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_6:
+    component: grating_coupler_elliptical_lumerical
+  gc_out_7:
+    component: grating_coupler_elliptical_lumerical
+placements:
+  gc_in_0:
+    x: 0.0
+    y: 400.0
+    rotation: 180
+  fanout_yb_0_0:
+    x: 70.0
+    y: 400.0
+    rotation: 0
+  fanout_yb_1_0:
+    x: 140.0
+    y: 200.0
+    rotation: 0
+  fanout_yb_1_1:
+    x: 140.0
+    y: 600.0
+    rotation: 0
+  fanout_yb_2_0:
+    x: 210.0
+    y: 100.0
+    rotation: 0
+  fanout_yb_2_1:
+    x: 210.0
+    y: 300.0
+    rotation: 0
+  fanout_yb_2_2:
+    x: 210.0
+    y: 500.0
+    rotation: 0
+  fanout_yb_2_3:
+    x: 210.0
+    y: 700.0
+    rotation: 0
+  mol_array_0_mzi_0:
+    x: 442.0
+    y: 50.0
+    rotation: 0
+  mol_array_0_mzi_1:
+    x: 442.0
+    y: 150.0
+    rotation: 0
+  mol_array_0_mzi_2:
+    x: 442.0
+    y: 250.0
+    rotation: 0
+  mol_array_0_mzi_3:
+    x: 442.0
+    y: 350.0
+    rotation: 0
+  mol_array_0_mzi_4:
+    x: 442.0
+    y: 450.0
+    rotation: 0
+  mol_array_0_mzi_5:
+    x: 442.0
+    y: 550.0
+    rotation: 0
+  mol_array_0_mzi_6:
+    x: 442.0
+    y: 650.0
+    rotation: 0
+  mol_array_0_mzi_7:
+    x: 442.0
+    y: 750.0
+    rotation: 0
+  mmi0_ps_array_0_heater_0:
+    x: 850.0
+    y: 50.5
+    rotation: 0
+  mmi0_ps_array_0_heater_1:
+    x: 850.0
+    y: 150.5
+    rotation: 0
+  mmi0_ps_array_0_heater_2:
+    x: 850.0
+    y: 250.5
+    rotation: 0
+  mmi0_ps_array_0_heater_3:
+    x: 850.0
+    y: 350.5
+    rotation: 0
+  mmi0_ps_array_0_heater_4:
+    x: 850.0
+    y: 450.5
+    rotation: 0
+  mmi0_ps_array_0_heater_5:
+    x: 850.0
+    y: 550.5
+    rotation: 0
+  mmi0_ps_array_0_heater_6:
+    x: 850.0
+    y: 650.5
+    rotation: 0
+  mmi0_ps_array_0_heater_7:
+    x: 850.0
+    y: 750.5
+    rotation: 0
+  mmi0_multiport_0_0:
+    x: 1112.0
+    y: 300.0
+    rotation: 0
+  mmi0_multiport_0_1:
+    x: 1212.0
+    y: 700.0
+    rotation: 0
+  mmi0_ps_array_1_heater_0:
+    x: 1534.0
+    y: 50.5
+    rotation: 0
+  mmi0_ps_array_1_heater_1:
+    x: 1534.0
+    y: 150.5
+    rotation: 0
+  mmi0_ps_array_1_heater_2:
+    x: 1534.0
+    y: 250.5
+    rotation: 0
+  mmi0_ps_array_1_heater_3:
+    x: 1534.0
+    y: 350.5
+    rotation: 0
+  mmi0_ps_array_1_heater_4:
+    x: 1534.0
+    y: 450.5
+    rotation: 0
+  mmi0_ps_array_1_heater_5:
+    x: 1534.0
+    y: 550.5
+    rotation: 0
+  mmi0_ps_array_1_heater_6:
+    x: 1534.0
+    y: 650.5
+    rotation: 0
+  mmi0_ps_array_1_heater_7:
+    x: 1534.0
+    y: 750.5
+    rotation: 0
+  mmi0_multiport_1_0:
+    x: 1897.0
+    y: 200.0
+    rotation: 0
+  mmi0_multiport_1_1:
+    x: 1897.0
+    y: 600.0
+    rotation: 0
+  mmi0_ps_array_2_heater_0:
+    x: 2219.0
+    y: 50.5
+    rotation: 0
+  mmi0_ps_array_2_heater_1:
+    x: 2219.0
+    y: 150.5
+    rotation: 0
+  mmi0_ps_array_2_heater_2:
+    x: 2219.0
+    y: 250.5
+    rotation: 0
+  mmi0_ps_array_2_heater_3:
+    x: 2219.0
+    y: 350.5
+    rotation: 0
+  mmi0_ps_array_2_heater_4:
+    x: 2219.0
+    y: 450.5
+    rotation: 0
+  mmi0_ps_array_2_heater_5:
+    x: 2219.0
+    y: 550.5
+    rotation: 0
+  mmi0_ps_array_2_heater_6:
+    x: 2219.0
+    y: 650.5
+    rotation: 0
+  mmi0_ps_array_2_heater_7:
+    x: 2219.0
+    y: 750.5
+    rotation: 0
+  mmi0_multiport_2_0:
+    x: 2581.0
+    y: 200.0
+    rotation: 0
+  mmi0_multiport_2_1:
+    x: 2581.0
+    y: 600.0
+    rotation: 0
+  mol_array_1_mzi_0:
+    x: 2868.0
+    y: 50.0
+    rotation: 0
+  mol_array_1_mzi_1:
+    x: 2868.0
+    y: 150.0
+    rotation: 0
+  mol_array_1_mzi_2:
+    x: 2868.0
+    y: 250.0
+    rotation: 0
+  mol_array_1_mzi_3:
+    x: 2868.0
+    y: 350.0
+    rotation: 0
+  mol_array_1_mzi_4:
+    x: 2868.0
+    y: 450.0
+    rotation: 0
+  mol_array_1_mzi_5:
+    x: 2868.0
+    y: 550.0
+    rotation: 0
+  mol_array_1_mzi_6:
+    x: 2868.0
+    y: 650.0
+    rotation: 0
+  mol_array_1_mzi_7:
+    x: 2868.0
+    y: 750.0
+    rotation: 0
+  mmi1_ps_array_0_heater_0:
+    x: 3276.0
+    y: 50.5
+    rotation: 0
+  mmi1_ps_array_0_heater_1:
+    x: 3276.0
+    y: 150.5
+    rotation: 0
+  mmi1_ps_array_0_heater_2:
+    x: 3276.0
+    y: 250.5
+    rotation: 0
+  mmi1_ps_array_0_heater_3:
+    x: 3276.0
+    y: 350.5
+    rotation: 0
+  mmi1_ps_array_0_heater_4:
+    x: 3276.0
+    y: 450.5
+    rotation: 0
+  mmi1_ps_array_0_heater_5:
+    x: 3276.0
+    y: 550.5
+    rotation: 0
+  mmi1_ps_array_0_heater_6:
+    x: 3276.0
+    y: 650.5
+    rotation: 0
+  mmi1_ps_array_0_heater_7:
+    x: 3276.0
+    y: 750.5
+    rotation: 0
+  mmi1_multiport_0_0:
+    x: 3638.0
+    y: 300.0
+    rotation: 0
+  mmi1_multiport_0_1:
+    x: 3638.0
+    y: 700.0
+    rotation: 0
+  mmi1_ps_array_1_heater_0:
+    x: 3960.0
+    y: 50.5
+    rotation: 0
+  mmi1_ps_array_1_heater_1:
+    x: 3960.0
+    y: 150.5
+    rotation: 0
+  mmi1_ps_array_1_heater_2:
+    x: 3960.0
+    y: 250.5
+    rotation: 0
+  mmi1_ps_array_1_heater_3:
+    x: 3960.0
+    y: 350.5
+    rotation: 0
+  mmi1_ps_array_1_heater_4:
+    x: 3960.0
+    y: 450.5
+    rotation: 0
+  mmi1_ps_array_1_heater_5:
+    x: 3960.0
+    y: 550.5
+    rotation: 0
+  mmi1_ps_array_1_heater_6:
+    x: 3960.0
+    y: 650.5
+    rotation: 0
+  mmi1_ps_array_1_heater_7:
+    x: 3960.0
+    y: 750.5
+    rotation: 0
+  mmi1_multiport_1_0:
+    x: 4323.0
+    y: 200.0
+    rotation: 0
+  mmi1_multiport_1_1:
+    x: 4323.0
+    y: 600.0
+    rotation: 0
+  gc_out_0:
+    x: 4450.0
+    y: 50.0
+    rotation: 0
+  gc_out_1:
+    x: 4450.0
+    y: 150.0
+    rotation: 0
+  gc_out_2:
+    x: 4450.0
+    y: 250.0
+    rotation: 0
+  gc_out_3:
+    x: 4450.0
+    y: 350.0
+    rotation: 0
+  gc_out_4:
+    x: 4450.0
+    y: 450.0
+    rotation: 0
+  gc_out_5:
+    x: 4450.0
+    y: 550.0
+    rotation: 0
+  gc_out_6:
+    x: 4450.0
+    y: 650.0
+    rotation: 0
+  gc_out_7:
+    x: 4450.0
+    y: 750.0
+    rotation: 0
+connections:
+  fanout_yb_0_0,o3: fanout_yb_1_0,o1
+  fanout_yb_0_0,o2: fanout_yb_1_1,o1
+  fanout_yb_1_0,o3: fanout_yb_2_0,o1
+  fanout_yb_1_0,o2: fanout_yb_2_1,o1
+  fanout_yb_1_1,o3: fanout_yb_2_2,o1
+  fanout_yb_1_1,o2: fanout_yb_2_3,o1
+  gc_in_0,o1: fanout_yb_0_0,o1
+  fanout_yb_2_0,o3: mol_array_0_mzi_0,o2
+  fanout_yb_2_0,o2: mol_array_0_mzi_1,o2
+  fanout_yb_2_1,o3: mol_array_0_mzi_2,o2
+  fanout_yb_2_1,o2: mol_array_0_mzi_3,o2
+  fanout_yb_2_2,o3: mol_array_0_mzi_4,o2
+  fanout_yb_2_2,o2: mol_array_0_mzi_5,o2
+  fanout_yb_2_3,o3: mol_array_0_mzi_6,o2
+  fanout_yb_2_3,o2: mol_array_0_mzi_7,o2
+  mol_array_0_mzi_0,o3: mmi0_ps_array_0_heater_0,o1
+  mol_array_0_mzi_1,o3: mmi0_ps_array_0_heater_1,o1
+  mol_array_0_mzi_2,o3: mmi0_ps_array_0_heater_2,o1
+  mol_array_0_mzi_3,o3: mmi0_ps_array_0_heater_3,o1
+  mol_array_0_mzi_4,o3: mmi0_ps_array_0_heater_4,o1
+  mol_array_0_mzi_5,o3: mmi0_ps_array_0_heater_5,o1
+  mol_array_0_mzi_6,o3: mmi0_ps_array_0_heater_6,o1
+  mol_array_0_mzi_7,o3: mmi0_ps_array_0_heater_7,o1
+  mmi0_ps_array_0_heater_0,o2: mmi0_multiport_0_0,o1
+  mmi0_ps_array_0_heater_1,o2: mmi0_multiport_0_0,o2
+  mmi0_ps_array_0_heater_2,o2: mmi0_multiport_0_0,o3
+  mmi0_ps_array_0_heater_3,o2: mmi0_multiport_0_0,o4
+  mmi0_ps_array_0_heater_4,o2: mmi0_multiport_0_0,o5
+  mmi0_ps_array_0_heater_5,o2: mmi0_multiport_0_0,o6
+  mmi0_ps_array_0_heater_6,o2: mmi0_multiport_0_1,o1
+  mmi0_ps_array_0_heater_7,o2: mmi0_multiport_0_1,o2
+  mmi0_multiport_0_0,o12: mmi0_ps_array_1_heater_4,o1
+  mmi0_multiport_0_0,o11: mmi0_ps_array_1_heater_1,o1
+  mmi0_multiport_0_0,o10: mmi0_ps_array_1_heater_2,o1
+  mmi0_multiport_0_0,o9: mmi0_ps_array_1_heater_3,o1
+  mmi0_multiport_0_0,o8: mmi0_ps_array_1_heater_0,o1
+  mmi0_multiport_0_0,o7: mmi0_ps_array_1_heater_5,o1
+  mmi0_multiport_0_1,o4: mmi0_ps_array_1_heater_6,o1
+  mmi0_multiport_0_1,o3: mmi0_ps_array_1_heater_7,o1
+  mmi0_ps_array_1_heater_0,o2: mmi0_multiport_1_0,o1
+  mmi0_ps_array_1_heater_1,o2: mmi0_multiport_1_0,o2
+  mmi0_ps_array_1_heater_2,o2: mmi0_multiport_1_0,o3
+  mmi0_ps_array_1_heater_3,o2: mmi0_multiport_1_0,o4
+  mmi0_ps_array_1_heater_4,o2: mmi0_multiport_1_1,o1
+  mmi0_ps_array_1_heater_5,o2: mmi0_multiport_1_1,o2
+  mmi0_ps_array_1_heater_6,o2: mmi0_multiport_1_1,o3
+  mmi0_ps_array_1_heater_7,o2: mmi0_multiport_1_1,o4
+  mmi0_multiport_1_0,o8: mmi0_ps_array_2_heater_0,o1
+  mmi0_multiport_1_0,o7: mmi0_ps_array_2_heater_1,o1
+  mmi0_multiport_1_0,o6: mmi0_ps_array_2_heater_2,o1
+  mmi0_multiport_1_0,o5: mmi0_ps_array_2_heater_7,o1
+  mmi0_multiport_1_1,o8: mmi0_ps_array_2_heater_4,o1
+  mmi0_multiport_1_1,o7: mmi0_ps_array_2_heater_5,o1
+  mmi0_multiport_1_1,o6: mmi0_ps_array_2_heater_6,o1
+  mmi0_multiport_1_1,o5: mmi0_ps_array_2_heater_3,o1
+  mmi0_ps_array_2_heater_0,o2: mmi0_multiport_2_0,o1
+  mmi0_ps_array_2_heater_1,o2: mmi0_multiport_2_0,o2
+  mmi0_ps_array_2_heater_2,o2: mmi0_multiport_2_0,o3
+  mmi0_ps_array_2_heater_3,o2: mmi0_multiport_2_0,o4
+  mmi0_ps_array_2_heater_4,o2: mmi0_multiport_2_1,o1
+  mmi0_ps_array_2_heater_5,o2: mmi0_multiport_2_1,o2
+  mmi0_ps_array_2_heater_6,o2: mmi0_multiport_2_1,o3
+  mmi0_ps_array_2_heater_7,o2: mmi0_multiport_2_1,o4
+  mmi0_multiport_2_0,o8: mol_array_1_mzi_0,o2
+  mmi0_multiport_2_0,o7: mol_array_1_mzi_1,o2
+  mmi0_multiport_2_0,o6: mol_array_1_mzi_5,o2
+  mmi0_multiport_2_0,o5: mol_array_1_mzi_6,o2
+  mmi0_multiport_2_1,o8: mol_array_1_mzi_2,o2
+  mmi0_multiport_2_1,o7: mol_array_1_mzi_3,o2
+  mmi0_multiport_2_1,o6: mol_array_1_mzi_4,o2
+  mmi0_multiport_2_1,o5: mol_array_1_mzi_7,o2
+  mol_array_1_mzi_0,o3: mmi1_ps_array_0_heater_0,o1
+  mol_array_1_mzi_1,o3: mmi1_ps_array_0_heater_1,o1
+  mol_array_1_mzi_2,o3: mmi1_ps_array_0_heater_2,o1
+  mol_array_1_mzi_3,o3: mmi1_ps_array_0_heater_3,o1
+  mol_array_1_mzi_4,o3: mmi1_ps_array_0_heater_4,o1
+  mol_array_1_mzi_5,o3: mmi1_ps_array_0_heater_5,o1
+  mol_array_1_mzi_6,o3: mmi1_ps_array_0_heater_6,o1
+  mol_array_1_mzi_7,o3: mmi1_ps_array_0_heater_7,o1
+  mmi1_ps_array_0_heater_0,o2: mmi1_multiport_0_0,o1
+  mmi1_ps_array_0_heater_1,o2: mmi1_multiport_0_0,o2
+  mmi1_ps_array_0_heater_2,o2: mmi1_multiport_0_0,o3
+  mmi1_ps_array_0_heater_3,o2: mmi1_multiport_0_0,o4
+  mmi1_ps_array_0_heater_4,o2: mmi1_multiport_0_0,o5
+  mmi1_ps_array_0_heater_5,o2: mmi1_multiport_0_0,o6
+  mmi1_ps_array_0_heater_6,o2: mmi1_multiport_0_1,o1
+  mmi1_ps_array_0_heater_7,o2: mmi1_multiport_0_1,o2
+  mmi1_multiport_0_0,o12: mmi1_ps_array_1_heater_0,o1
+  mmi1_multiport_0_0,o11: mmi1_ps_array_1_heater_2,o1
+  mmi1_multiport_0_0,o10: mmi1_ps_array_1_heater_1,o1
+  mmi1_multiport_0_0,o9: mmi1_ps_array_1_heater_6,o1
+  mmi1_multiport_0_0,o8: mmi1_ps_array_1_heater_4,o1
+  mmi1_multiport_0_0,o7: mmi1_ps_array_1_heater_5,o1
+  mmi1_multiport_0_1,o4: mmi1_ps_array_1_heater_3,o1
+  mmi1_multiport_0_1,o3: mmi1_ps_array_1_heater_7,o1
+  mmi1_ps_array_1_heater_0,o2: mmi1_multiport_1_0,o1
+  mmi1_ps_array_1_heater_1,o2: mmi1_multiport_1_0,o2
+  mmi1_ps_array_1_heater_2,o2: mmi1_multiport_1_0,o3
+  mmi1_ps_array_1_heater_3,o2: mmi1_multiport_1_0,o4
+  mmi1_ps_array_1_heater_4,o2: mmi1_multiport_1_1,o1
+  mmi1_ps_array_1_heater_5,o2: mmi1_multiport_1_1,o2
+  mmi1_ps_array_1_heater_6,o2: mmi1_multiport_1_1,o3
+  mmi1_ps_array_1_heater_7,o2: mmi1_multiport_1_1,o4
+  mmi1_multiport_1_0,o8: gc_out_0,o1
+  mmi1_multiport_1_0,o7: gc_out_1,o1
+  mmi1_multiport_1_0,o6: gc_out_4,o1
+  mmi1_multiport_1_0,o5: gc_out_6,o1
+  mmi1_multiport_1_1,o8: gc_out_2,o1
+  mmi1_multiport_1_1,o7: gc_out_5,o1
+  mmi1_multiport_1_1,o6: gc_out_7,o1
+  mmi1_multiport_1_1,o5: gc_out_3,o1

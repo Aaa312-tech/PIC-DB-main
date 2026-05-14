@@ -46,6 +46,6 @@ il_bending: 0.03
 il_propogation: 1.5
 
 incrementalPlacement:
-  incre_margin: 200.0
+  incre_margin: 300.0
   incre_radius: 5.0
   incre_K: 5

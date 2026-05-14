@@ -126,74 +126,74 @@ placements:
   # --- Input Stage (紧凑间距) ---
   gc_in_0: {x: 50.0, y: 500.0, rotation: 180}
   yb_0_0: {x: 150.0, y: 500.0, rotation: 0}
-  yb_1_0: {x: 250.0, y: 50.0, rotation: 0}
-  yb_1_1: {x: 250.0, y: 950.0, rotation: 0}
-  yb_2_0: {x: 350.0, y: 50.0, rotation: 0}
-  yb_2_1: {x: 350.0, y: 350.0, rotation: 0}
-  yb_2_2: {x: 350.0, y: 650.0, rotation: 0}
-  yb_2_3: {x: 350.0, y: 950.0, rotation: 0}
+  yb_1_0: {x: 250.0, y: 250.0, rotation: 0}
+  yb_1_1: {x: 250.0, y: 750.0, rotation: 0}
+  yb_2_0: {x: 350.0, y: 125.0, rotation: 0}
+  yb_2_1: {x: 350.0, y: 375.0, rotation: 0}
+  yb_2_2: {x: 350.0, y: 625.0, rotation: 0}
+  yb_2_3: {x: 350.0, y: 875.0, rotation: 0}
   
-  # --- Modulator MZIs (中等间距过渡) ---
-  mzi_0: {x: 500.0, y: 50.0, rotation: 0}
-  mzi_1: {x: 500.0, y: 178.6, rotation: 0}
-  mzi_2: {x: 500.0, y: 307.1, rotation: 0}
-  mzi_3: {x: 500.0, y: 435.7, rotation: 0}
-  mzi_4: {x: 500.0, y: 564.3, rotation: 0}
-  mzi_5: {x: 500.0, y: 692.9, rotation: 0}
-  mzi_6: {x: 500.0, y: 821.4, rotation: 0}
-  mzi_7: {x: 500.0, y: 950.0, rotation: 0}
+  # --- Modulator MZIs (主干波导 8 通道分布) ---
+  mzi_0: {x: 500.0, y: 62.5, rotation: 0}
+  mzi_1: {x: 500.0, y: 187.5, rotation: 0}
+  mzi_2: {x: 500.0, y: 312.5, rotation: 0}
+  mzi_3: {x: 500.0, y: 437.5, rotation: 0}
+  mzi_4: {x: 500.0, y: 562.5, rotation: 0}
+  mzi_5: {x: 500.0, y: 687.5, rotation: 0}
+  mzi_6: {x: 500.0, y: 812.5, rotation: 0}
+  mzi_7: {x: 500.0, y: 937.5, rotation: 0}
 
-  # --- 第 0 列 (Even - 宽间距) ---
-  p1: {x: 850.0, y: 50.0, rotation: 0}
-  p2: {x: 850.0, y: 350.0, rotation: 0}
-  p3: {x: 850.0, y: 650.0, rotation: 0}
-  p4: {x: 850.0, y: 950.0, rotation: 0}
+  # --- 第 0 列 (Even - 4元件) ---
+  p1: {x: 850.0, y: 125.0, rotation: 0}
+  p2: {x: 850.0, y: 375.0, rotation: 0}
+  p3: {x: 850.0, y: 625.0, rotation: 0}
+  p4: {x: 850.0, y: 875.0, rotation: 0}
 
-  # --- 第 1 列 (Odd) ---
-  p29: {x: 1170.0, y: 50.0, rotation: 0}
-  p5: {x: 1170.0, y: 275.0, rotation: 0}
+  # --- 第 1 列 (Odd - 5元件，上下单连) ---
+  p29: {x: 1170.0, y: 62.5, rotation: 0}
+  p5: {x: 1170.0, y: 250.0, rotation: 0}
   p6: {x: 1170.0, y: 500.0, rotation: 0}
-  p7: {x: 1170.0, y: 725.0, rotation: 0}
-  p30: {x: 1170.0, y: 950.0, rotation: 0}
+  p7: {x: 1170.0, y: 750.0, rotation: 0}
+  p30: {x: 1170.0, y: 937.5, rotation: 0}
 
-  # --- 第 2 列 (Even) ---
-  p8: {x: 1490.0, y: 50.0, rotation: 0}
-  p9: {x: 1490.0, y: 350.0, rotation: 0}
-  p10: {x: 1490.0, y: 650.0, rotation: 0}
-  p11: {x: 1490.0, y: 950.0, rotation: 0}
+  # --- 第 2 列 (Even - 4元件) ---
+  p8: {x: 1490.0, y: 125.0, rotation: 0}
+  p9: {x: 1490.0, y: 375.0, rotation: 0}
+  p10: {x: 1490.0, y: 625.0, rotation: 0}
+  p11: {x: 1490.0, y: 875.0, rotation: 0}
 
-  # --- 第 3 列 (Odd) ---
-  p31: {x: 1810.0, y: 50.0, rotation: 0}
-  p12: {x: 1810.0, y: 275.0, rotation: 0}
+  # --- 第 3 列 (Odd - 5元件) ---
+  p31: {x: 1810.0, y: 62.5, rotation: 0}
+  p12: {x: 1810.0, y: 250.0, rotation: 0}
   p13: {x: 1810.0, y: 500.0, rotation: 0}
-  p14: {x: 1810.0, y: 725.0, rotation: 0}
-  p32: {x: 1810.0, y: 950.0, rotation: 0}
+  p14: {x: 1810.0, y: 750.0, rotation: 0}
+  p32: {x: 1810.0, y: 937.5, rotation: 0}
 
-  # --- 第 4 列 (Even) ---
-  p15: {x: 2130.0, y: 50.0, rotation: 0}
-  p16: {x: 2130.0, y: 350.0, rotation: 0}
-  p17: {x: 2130.0, y: 650.0, rotation: 0}
-  p18: {x: 2130.0, y: 950.0, rotation: 0}
+  # --- 第 4 列 (Even - 4元件) ---
+  p15: {x: 2130.0, y: 125.0, rotation: 0}
+  p16: {x: 2130.0, y: 375.0, rotation: 0}
+  p17: {x: 2130.0, y: 625.0, rotation: 0}
+  p18: {x: 2130.0, y: 875.0, rotation: 0}
 
-  # --- 第 5 列 (Odd) ---
-  p33: {x: 2450.0, y: 50.0, rotation: 0}
-  p19: {x: 2450.0, y: 275.0, rotation: 0}
+  # --- 第 5 列 (Odd - 5元件) ---
+  p33: {x: 2450.0, y: 62.5, rotation: 0}
+  p19: {x: 2450.0, y: 250.0, rotation: 0}
   p20: {x: 2450.0, y: 500.0, rotation: 0}
-  p21: {x: 2450.0, y: 725.0, rotation: 0}
-  p34: {x: 2450.0, y: 950.0, rotation: 0}
+  p21: {x: 2450.0, y: 750.0, rotation: 0}
+  p34: {x: 2450.0, y: 937.5, rotation: 0}
 
-  # --- 第 6 列 (Even) ---
-  p22: {x: 2770.0, y: 50.0, rotation: 0}
-  p23: {x: 2770.0, y: 350.0, rotation: 0}
-  p24: {x: 2770.0, y: 650.0, rotation: 0}
-  p25: {x: 2770.0, y: 950.0, rotation: 0}
+  # --- 第 6 列 (Even - 4元件) ---
+  p22: {x: 2770.0, y: 125.0, rotation: 0}
+  p23: {x: 2770.0, y: 375.0, rotation: 0}
+  p24: {x: 2770.0, y: 625.0, rotation: 0}
+  p25: {x: 2770.0, y: 875.0, rotation: 0}
 
-  # --- 第 7 列 (Odd) ---
-  p35: {x: 3090.0, y: 50.0, rotation: 0}
-  p26: {x: 3090.0, y: 275.0, rotation: 0}
+  # --- 第 7 列 (Odd - 5元件) ---
+  p35: {x: 3090.0, y: 62.5, rotation: 0}
+  p26: {x: 3090.0, y: 250.0, rotation: 0}
   p27: {x: 3090.0, y: 500.0, rotation: 0}
-  p28: {x: 3090.0, y: 725.0, rotation: 0}
-  p36: {x: 3090.0, y: 950.0, rotation: 0}
+  p28: {x: 3090.0, y: 750.0, rotation: 0}
+  p36: {x: 3090.0, y: 937.5, rotation: 0}
 
   # --- Output Stage ---
   gc_out_0: {x: 3450.0, y: 50.0, rotation: 0}
